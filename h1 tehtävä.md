@@ -8,6 +8,7 @@
 - Lähteet tulee kirjoittaa selkeästi akateemisia käytäntöjä noudattaen, jolloin perehtyminen aihealueeseenkin tulee ilmi.
 
 LÄHTEET 
+
 Karvinen, T. Artikkeli. 2006. Luettavissa: https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
 
 # What is free software
@@ -27,6 +28,7 @@ Neljä vapautta tarkoittaa
 4. Vapautta levittää itse muokattuja kopioita ohjelmistosta ja auttaen muita käyttäjiä. Tärkeää on muistaa lähdekoodin jakaminen.
 
 LÄHTEET 
+
 Free SW. Artikkeli. Luettavissa: https://www.gnu.org/philosophy/free-sw.html
 
 ## h1 Tehtävän raportti
