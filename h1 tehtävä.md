@@ -31,7 +31,7 @@ LÄHTEET
 
 Free SW. Artikkeli. Luettavissa: https://www.gnu.org/philosophy/free-sw.html Luettu 19.1.2025.
 
-## h1 Tehtävän raportti
+# h1 Tehtävän raportti
 Lähdin tekemään tehtävänantoa kotona sunnuntaina kello 15.05. VirtualBoxin asensin jo 14.1. tiistaina. Haasteena koin alkuun Virtualboxin käyttöliittymän, joka ei ole entuudestaan tuttu. Tietokoneeni on Fujitsu Lifebook E549 (Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz  1.80 GHz).
 Useampaa välilehteä kannattaa pitää auki asennusprosessin aikana. Avasin ohjeen tehtävänannosta, joka vei Debianin asentamiseen Virtualboxilla (Karvinen, T. 2021).  
 
