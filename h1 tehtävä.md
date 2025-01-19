@@ -15,7 +15,7 @@ Karvinen, T. Artikkeli. 2006. Luettavissa: https://terokarvinen.com/2006/raporti
 
 - Free Softwarella tarkoitetaan vapaasti käytettävää ja muokattavaa ohjelmistoa, jota voi myös jakaa ilman rajoituksia.
 
--"Free" ei tarkoita tässä tapauksessa ilmaista, vaan oikeuksia käyttää, jakaa ja muokata ilman rajoituksia.
+- "Free" ei tarkoita tässä tapauksessa ilmaista, vaan oikeuksia käyttää, jakaa ja muokata ilman rajoituksia.
 
 Neljä vapautta tarkoittaa
 
