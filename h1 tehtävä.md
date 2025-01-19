@@ -1,10 +1,22 @@
-## What is free software
+# Raportin kirjoittaminen
+- Täsmällistä raporttia tehdessä pitää selittää selkeästi mitä komentoja antoi. On tärkeää myö muistaa kellonajat, joka kertoo lukijalle työvaihesiin kuluvan ajan.
+- Vikatilanteet ja virheilmoitukset pitää ilmaista selkeästi.
+- Aikamuodon on oltava menneessä aikamuodossa.
+- Raportin pitää olla helppolukuinen ja toistettava.
+- Pitää oikeasti tehdä tehdyt testit, eikä sepittää.
+- Kuvien luvaton kopiointi ei ole sallittua.
+- Lähteet tulee kirjoittaa selkeästi akateemisia käytäntöjä noudattaen, jolloin perehtyminen aihealueeseenkin tulee ilmi.
+
+LÄHTEET 
+Karvinen, T. Artikkeli. 2006. Luettavissa: https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
+
+# What is free software
 
 -Free Softwarella tarkoitetaan vapaasti käytettävää ja muokattavaa ohjelmistoa, jota voi myös jakaa ilman rajoituksia.
 
 -"Free" ei tarkoita tässä tapauksessa ilmaista, vaan oikeuksia käyttää, jakaa ja muokata ilman rajoituksia.
 
-a) Neljä vapautta tarkoittaa
+Neljä vapautta tarkoittaa
 
 1. Vapaus käyttää ohjelmistoa kuten haluaa minkälaiseen käyttötarkoitukseen tahansa.
 
@@ -16,6 +28,8 @@ a) Neljä vapautta tarkoittaa
 
 4. Vapautta levittää itse muokattuja kopioita ohjelmistosta ja auttaen muita käyttäjiä. Tärkeää on muistaa lähdekoodin jakaminen.
 
+LÄHTEET 
+Free SW. Artikkeli. Luettavissa: https://www.gnu.org/philosophy/free-sw.html
 
 ## h1 Tehtävän raportti
 Lähdin tekemään tehtävänantoa kotona sunnuntaina kello 15.05. VirtualBoxin asensin jo 14.1. tiistaina. Haasteena koin alkuun Virtualboxin käyttöliittymän, joka ei ole entuudestaan tuttu. Tietokoneeni on Fujitsu Lifebook E549 (Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz  1.80 GHz).
