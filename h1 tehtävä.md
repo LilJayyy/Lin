@@ -18,7 +18,7 @@ Aiemmin olen käyttänyt Azuren Remote Desktopia, joten tällaista ongelmaa ei o
 
 Kohtasin ongelman, kun musta ruutu ilmestyi. Jouduin boottaamaan virtuaalikoneen uudestaan. Avasin virtuaalikoneessa ensin Live system (amd64) mutta resetoin virtuaalikoneen ja kokeilin käynnistää Live system (amd64 fail-safe mode), joka onnistui hienosti odottelun jälkeen, joten palasin takaisin boottaamaan Live system (amd64) onnistuneesti. Kyseessä olikin vain viive.
 
-Lähdin testaamaan toimivuutta avaamalla selaimen ja Googletin ohjeistuksen mukaisesti ”Tero Karvinen” ja hakutulos aukesi onnistuneesti. Kello oli tässä vaiheessa 16.27 joten voisi sanoa, että asennusprosessin nopeaa etenemistä ei kannata olettaa ja on tärkeää varautua mahdollisiin virhetilanteisiin. 
+Lähdin testaamaan virtuaalikoneen toimivuutta avaamalla selaimen ja Googletin ohjeistuksen mukaisesti ”Tero Karvinen” ja hakutulos aukesi onnistuneesti. Kello oli tässä vaiheessa 16.27 joten voisi sanoa, että asennusprosessin nopeaa etenemistä ei kannata olettaa ja on tärkeää varautua mahdollisiin virhetilanteisiin. 
 
 Oli aika edetä Debian GNU/Linux Installerin pariin klikkaamalla työpöydän ”Install Debian” -kuvaketta. Lokaatioksi valitsin Finland, Kieleksi valitsin American English, Keybordiksi ”Generic 105-key PC (intl.).
 Seuraavalle sivulle edetessä klikattin Erase disk: Yes, Encrypt: No, Boot loader location: ”Master Boot Record..” Valitsin nimeksi oman koko nimeni, kirjautuminimeni, tietokoneen nimen, kuitenkin poistaen oman nimi tietokoneen nimestä, sillä siitä tulee myös Public Domain nimi ja lopuksi vielä salasana ja jätetään automaattinen sisäänkirjautuminen tyhjäksi. Lopuksi klikattiin ”Install” napista. Asennusvaihe kesti noin viisi minuuttia. Lopuksi klikkasin ”Restart now” nappulaa
