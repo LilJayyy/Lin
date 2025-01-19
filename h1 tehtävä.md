@@ -49,8 +49,6 @@ Lähdin etsimään tietoa virheilmoituksen koodin perusteella Googlesta. Löysin
 
 Vikatilanteen korjaaminen onnistui hienosti virhekoodilla etsimällä ja videoa seuraamalla. Pääsin etenemään tehtävässä ja virtuaalikone käynnistyi hienosti.
 
-Aiemmin olen käyttänyt Azuren Remote Desktopia, joten tällaista ongelmaa ei ollut. Osasin hyödyntää aiemmalla Windows Palvelimet -kurssilla opitut virtuaalikoneen asetusten asettamiset, joten virtuaalikoneen luominen muutoin oli helppoa. Linuxin kanssa ei ollut aiempaa kokemusta.
-
 Kohtasin ongelman, kun musta ruutu ilmestyi. Jouduin boottaamaan virtuaalikoneen uudestaan. Avasin virtuaalikoneessa ensin Live system (amd64) mutta resetoin virtuaalikoneen ja kokeilin käynnistää Live system (amd64 fail-safe mode), joka onnistui hienosti odottelun jälkeen, joten palasin takaisin boottaamaan Live system (amd64) onnistuneesti. Kyseessä olikin vain viive.
 
 ![Kuva3 h1](https://github.com/user-attachments/assets/30db276e-0f68-43c9-9c36-e1605d673f89)
@@ -68,7 +66,7 @@ Syötin komennon sudo apt-get -y dist upgrade eli päivitetään kaikki.
 Virhetilanne tosin tuli jälleen, kun syötin ylimääräisen välilyönnin komentoon. Klikkasin nuolta ylöspäin, jolla sain kopioitua koko komennon ja poistin välilyönnin välistä, ja päivittäminen alkoi, jossa meni hetki. 
 Asensin tämän jälkeen palomuurin komennoilla: sudo apt-get -y install ufw ja sudo ufw enable. Sain vahvistuksen onnistuneeseen asennukseen tekstillä ”Firewall is active and enabled on system startup”. 
 
-Lopuksi tein vielä uudelleenkäynnistyksen käynnistys navigointipalkin vasemmasta kuvakkeesta. Kirjauduin sisään tunnuksilla ja olimmekin päässeet tämän harjoituksen loppuun. Linuxin asennus oli onnistunut. Kello oli tässä kohtaa 17.10. Harjoitus oli onnistunut ja mukava muutamaa haastetta lukuun ottamatta.
+Lopuksi tein vielä uudelleenkäynnistyksen käynnistys navigointipalkin vasemmasta kuvakkeesta. Kirjauduin sisään tunnuksilla ja olimmekin päässeet tämän harjoituksen loppuun. Linuxin asennus oli onnistunut. Kello oli tässä kohtaa 17.10. 
 
 ![Kuva4 h1](https://github.com/user-attachments/assets/4ac4e746-42a5-48a2-9f1a-9002af51043a)
 
