@@ -1,4 +1,23 @@
-# h1 Tehtävän raportti
+## What is free software
+
+-Free Softwarella tarkoitetaan vapaasti käytettävää ja muokattavaa ohjelmistoa, jota voi myös jakaa ilman rajoituksia.
+
+-"Free" ei tarkoita tässä tapauksessa ilmaista, vaan oikeuksia käyttää, jakaa ja muokata ilman rajoituksia.
+
+a) Neljä vapautta tarkoittaa
+
+1. Vapaus käyttää ohjelmistoa kuten haluaa minkälaiseen käyttötarkoitukseen tahansa.
+
+1. Vapaus käyttää ohjelmistoa kuten haluaa minkälaiseen käyttötarkoitukseen tahansa.
+
+2. Vapautta opiskella/tutkia, sekä muokata toimivuutta oman käyttötarkituksen mukaan.
+
+3. Vapautta ohjelmiston kopioiden levitykseen auttaen muitakin käyttäjiä samalla
+
+4. Vapautta levittää itse muokattuja kopioita ohjelmistosta ja auttaen muita käyttäjiä. Tärkeää on muistaa lähdekoodin jakaminen.
+
+
+## h1 Tehtävän raportti
 Lähdin tekemään tehtävänantoa kotona sunnuntaina kello 15.05. VirtualBoxin asensin jo 14.1. tiistaina. Haasteena koin alkuun Virtualboxin käyttöliittymän, joka ei ole entuudestaan tuttu. Tietokoneeni on Fujitsu Lifebook E549 (Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz  1.80 GHz).
 Useampaa välilehteä kannattaa pitää auki asennusprosessin aikana. Avasin ohjeen tehtävänannosta, joka vei Debianin asentamiseen Virtualboxilla (Karvinen, T. 2021).  
 
