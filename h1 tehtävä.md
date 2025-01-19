@@ -5,13 +5,16 @@ Useampaa välilehteä kannattaa pitää auki asennusprosessin aikana. Avasin ohj
 Ensin piti kuitenkin asentaa virtuaalikone, jossa tein virheen. Hyppäsin suoraan Debianin asentamiseen. Onneksi tämä tuli huomattua alkuvaiheella. 
 Huomasin ohjeessa edetessä, että Debian olisikin pitänyt asentaa ennen virtuaalikoneen luomista. Kello oli jo 15.40, joten mielessä ollut ”Lyhyt” asennus olikin ajateltua pidempi. 
 
-Onnistunut Debianin asennus. Oli aika lähteä boottaamaan virtuaalikone auki valittuani ISO disk imagen (debian-lice-12.9.0-amd64-cinnamon) jonka latasin cdimge.debian.org sivustolta.
-Tuplaklikkasin ohjeistuksen mukaisesti uuden virtuaalikoneen. Mutta tässä kohtaa tulikin virheilmoitus: ”Not in a hypervsor partition.” ”VT-X is disabled in the BIOS fo all CPU modes” (VERR_VMX_MSR-ALL_VMX_DISABLED).
+Virtuaalikoneen buuttausta edelsi asennustietojen määrittely virtuaalikoneeseen, jossa valittiin Debian (64-bit), tyypiksi Linux, muistin kooksi 4000Mb ja luotiin virtual hard disk. Tiedoston kooksi valittiin 60GB, Hard disk file tyypiksi VDI (Virtualbox Disk Image) ja dynamically allocated valiten. Virtuaalikone ilmestyi tämän jälkeen Virtualbox Manageriin.
+
+Klikkasin hiiren oikealla asetukset(settings) auki ja menin kohtaan "Storage". Valitsin Controller: IDE kohdasta CDROM "Empty" kohdan. Sieltä klikkasin Attribuuteista cd-levyn kuvakkeesta auki uuden ikkunan, jossa valitsin Virtual Optical Disk Fileksi aiemmin asennetun ja tallennetun ISO Disk imagen (debian-live-12.9.0-amd64-cinnamon.ISO).
+
+Tuplaklikkasin ohjeistuksen mukaisesti uuden virtuaalikoneen auki Virtualboxista, jonka asensin ohjeistuksen mukaisesti. Mutta tässä kohtaa tulikin virheilmoitus: ”Not in a hypervsor partition.” ”VT-X is disabled in the BIOS fo all CPU modes” (VERR_VMX_MSR-ALL_VMX_DISABLED).
 Lähdin etsimään tietoa virheilmoituksen koodin perusteella Googlesta. Löysin Youtubesta hyvän ohjeen, miten enabloidaan virtualisointi Windows 11:lla. (Youtube, Bluestacks. 2021). 
 
 Aiemmin olen käyttänyt Azuren Remote Desktopia, joten tällaista ongelmaa ei ollut. Osasin hyödyntää aiemmalla Windows Palvelimet -kurssilla opitut virtuaalikoneen asetusten asettamiset, joten virtuaalikoneen luominen muutoin oli helppoa. Linuxin kanssa ei ollut aiempaa kokemusta.
 
-Kohtasin ongelman, kun musta ruutu ilmestyi. Jouduin boottaamaan virtuaalikoneen uudestaan. Avasin ensin Live system (amd64) mutta resetoin virtuaalikoneen ja kokeilin käynnistää Live system (amd64 fail-safe mode), joka onnistui hienosti odottelun jälkeen, joten palasin takaisin boottaamaan Live system (amd64) ja boottaus onnistui. 
+Kohtasin ongelman, kun musta ruutu ilmestyi. Jouduin boottaamaan virtuaalikoneen uudestaan. Avasin virtuaalikoneessa ensin Live system (amd64) mutta resetoin virtuaalikoneen ja kokeilin käynnistää Live system (amd64 fail-safe mode), joka onnistui hienosti odottelun jälkeen, joten palasin takaisin boottaamaan Live system (amd64) ja boottaus onnistui. 
 Lähdin testaamaan toimivuutta avaamalla selaimen ja Googletin ohjeistuksen mukaisesti ”Tero Karvinen” ja hakutulos aukesi onnistuneesti. Kello oli tässä vaiheessa 16.27 joten voisi sanoa, että asennusprosessin nopeaa etenemistä ei kannata olettaa ja on tärkeää varautua mahdollisiin virhetilanteisiin. 
 
 Oli aika edetä Debian GNU/Linux Installerin pariin klikkaamalla työpöydän ”Install Debian” -kuvaketta. Lokaatioksi valitsin Finland, Kieleksi valitsin American English, Keybordiksi ”Generic 105-key PC (intl.).
