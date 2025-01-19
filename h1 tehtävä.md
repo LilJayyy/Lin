@@ -62,7 +62,7 @@ Seuraavalle sivulle edetessä klikattin Erase disk: Yes, Encrypt: No, Boot loade
 
 Käynnistymisessä meni hetki ja seuraavaksi syötettiin luotu käyttäjätunnus ja salasana. Kirjautuminen onnistui hienosti. Avasin jälleen Mozilla Firefox selaimen testaten toimivuutta onnistuneesti. 
 
-## Terminal ja komennot tehtäviin päivityksiin
+## Terminal ja komennot tehtäviin päivityksiin ja asennukseen
 Lähdin avaamaan Terminaalin käynnistyspalkin ikonista ja syötin komennon sudo apt -get update. Salasanan syöttämisen jälkeen päivittämisprosessi lähti käyntiin. 
 Syötin komennon sudo apt-get -y dist upgrade eli päivitetään kaikki. 
 
