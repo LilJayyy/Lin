@@ -5,7 +5,7 @@ Useampaa välilehteä kannattaa pitää auki asennusprosessin aikana. Avasin ohj
 Ensin piti kuitenkin asentaa virtuaalikone, jossa tein virheen. Hyppäsin suoraan Debianin asentamiseen. Onneksi tämä tuli huomattua alkuvaiheella. 
 Huomasin ohjeessa edetessä, että Debian olisikin pitänyt asentaa ennen virtuaalikoneen luomista. Kello oli jo 15.40, joten mielessä ollut ”Lyhyt” asennus olikin ajateltua pidempi. 
 
-Onnistunut Debianin asennus. Oli aika lähteä boottaamaan virtuaalikone auki valittuani ISO disk imagen (debian-lice-12.9.0-amd64-cinnamon).
+Onnistunut Debianin asennus. Oli aika lähteä boottaamaan virtuaalikone auki valittuani ISO disk imagen (debian-lice-12.9.0-amd64-cinnamon) jonka latasin cdimge.debian.org sivustolta.
 Tuplaklikkasin ohjeistuksen mukaisesti uuden virtuaalikoneen. Mutta tässä kohtaa tulikin virheilmoitus: ”Not in a hypervsor partition.” ”VT-X is disabled in the BIOS fo all CPU modes” (VERR_VMX_MSR-ALL_VMX_DISABLED).
 Lähdin etsimään tietoa virheilmoituksen koodin perusteella Googlesta. Löysin Youtubesta hyvän ohjeen, miten enabloidaan virtualisointi Windows 11:lla. (Youtube, Bluestacks. 2021). 
 
@@ -30,4 +30,4 @@ Katsottavissa: https://www.youtube.com/watch?v=t8f-zw_wcWM
 
 Karvinen, T. 2021. Install Debian on Virtualbox. Luettavissa: https://terokarvinen.com/2021/install-debian-on-virtualbox/ Luettu: 19.1.2025.
 
-Debian installl. Luettavissa: https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/ Luettu 19.1.2025.
+Debian install. Luettavissa: https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/ Luettu 19.1.2025.
