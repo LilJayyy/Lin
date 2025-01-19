@@ -12,6 +12,8 @@ Klikkasin hiiren oikealla asetukset (settings) auki ja menin kohtaan "Storage". 
 Tuplaklikkasin ohjeistuksen mukaisesti uuden virtuaalikoneen auki Virtualboxista, jonka asensin ohjeistuksen mukaisesti. Mutta tässä kohtaa tulikin virheilmoitus: ”Not in a hypervsor partition.” ”VT-X is disabled in the BIOS fo all CPU modes” (VERR_VMX_MSR-ALL_VMX_DISABLED).
 Lähdin etsimään tietoa virheilmoituksen koodin perusteella Googlesta. Löysin Youtubesta hyvän ohjeen, miten enabloidaan virtualisointi Windows 11:lla. (Youtube, Bluestacks. 2021). 
 
+Vikatilanteen korjaaminen onnistui hienosti virhekoodilla etsimällä ja videoa seuraamalla. Pääsin etenemään tehtävässä ja virtuaalikone käynnistyi hienosti.
+
 Aiemmin olen käyttänyt Azuren Remote Desktopia, joten tällaista ongelmaa ei ollut. Osasin hyödyntää aiemmalla Windows Palvelimet -kurssilla opitut virtuaalikoneen asetusten asettamiset, joten virtuaalikoneen luominen muutoin oli helppoa. Linuxin kanssa ei ollut aiempaa kokemusta.
 
 Kohtasin ongelman, kun musta ruutu ilmestyi. Jouduin boottaamaan virtuaalikoneen uudestaan. Avasin virtuaalikoneessa ensin Live system (amd64) mutta resetoin virtuaalikoneen ja kokeilin käynnistää Live system (amd64 fail-safe mode), joka onnistui hienosti odottelun jälkeen, joten palasin takaisin boottaamaan Live system (amd64) ja boottaus onnistui. 
