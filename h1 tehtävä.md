@@ -40,6 +40,8 @@ Huomasin ohjeessa edetessä, että Debian olisikin pitänyt asentaa ennen virtua
 
 Virtuaalikoneen buuttausta edelsi asennustietojen määrittely virtuaalikoneeseen, jossa valittiin Debian (64-bit), tyypiksi Linux, muistin kooksi 4000Mb ja luotiin virtual hard disk. Tiedoston kooksi valittiin 60GB, Hard disk file tyypiksi VDI (Virtualbox Disk Image) ja dynamically allocated valiten. Virtuaalikone ilmestyi tämän jälkeen Virtualbox Manageriin.
 
+![Kuva1 h1](https://github.com/user-attachments/assets/d2f944b4-2781-4c00-a69f-4aa0e548ac8d)
+
 Klikkasin hiiren oikealla asetukset (settings) auki ja menin kohtaan "Storage". Valitsin Controller: IDE kohdasta CDROM "Empty" kohdan. Sieltä klikkasin Attribuuteista cd-levyn kuvakkeesta auki uuden ikkunan, jossa valitsin Virtual Optical Disk Fileksi aiemmin asennetun ja tallennetun ISO Disk imagen (debian-live-12.9.0-amd64-cinnamon.ISO).
 
 Tuplaklikkasin ohjeistuksen mukaisesti uuden virtuaalikoneen auki Virtualboxista, jonka asensin ohjeistuksen mukaisesti. Mutta tässä kohtaa tulikin virheilmoitus: ”Not in a hypervsor partition.” ”VT-X is disabled in the BIOS fo all CPU modes” (VERR_VMX_MSR-ALL_VMX_DISABLED).
@@ -50,6 +52,8 @@ Vikatilanteen korjaaminen onnistui hienosti virhekoodilla etsimällä ja videoa 
 Aiemmin olen käyttänyt Azuren Remote Desktopia, joten tällaista ongelmaa ei ollut. Osasin hyödyntää aiemmalla Windows Palvelimet -kurssilla opitut virtuaalikoneen asetusten asettamiset, joten virtuaalikoneen luominen muutoin oli helppoa. Linuxin kanssa ei ollut aiempaa kokemusta.
 
 Kohtasin ongelman, kun musta ruutu ilmestyi. Jouduin boottaamaan virtuaalikoneen uudestaan. Avasin virtuaalikoneessa ensin Live system (amd64) mutta resetoin virtuaalikoneen ja kokeilin käynnistää Live system (amd64 fail-safe mode), joka onnistui hienosti odottelun jälkeen, joten palasin takaisin boottaamaan Live system (amd64) onnistuneesti. Kyseessä olikin vain viive.
+
+![Kuva3 h1](https://github.com/user-attachments/assets/30db276e-0f68-43c9-9c36-e1605d673f89)
 
 Lähdin testaamaan virtuaalikoneen toimivuutta avaamalla selaimen ja Googletin ohjeistuksen mukaisesti ”Tero Karvinen” ja hakutulos aukesi onnistuneesti. Kello oli tässä vaiheessa 16.27 joten voisi sanoa, että asennusprosessin nopeaa etenemistä ei kannata olettaa ja on tärkeää varautua mahdollisiin virhetilanteisiin. 
 
@@ -65,6 +69,8 @@ Virhetilanne tosin tuli jälleen, kun syötin ylimääräisen välilyönnin kome
 Asensin tämän jälkeen palomuurin komennoilla: sudo apt-get -y install ufw ja sudo ufw enable. Sain vahvistuksen onnistuneeseen asennukseen tekstillä ”Firewall is active and enabled on system startup”. 
 
 Lopuksi tein vielä uudelleenkäynnistyksen käynnistys navigointipalkin vasemmasta kuvakkeesta. Kirjauduin sisään tunnuksilla ja olimmekin päässeet tämän harjoituksen loppuun. Linuxin asennus oli onnistunut. Kello oli tässä kohtaa 17.10. Harjoitus oli onnistunut ja mukava muutamaa haastetta lukuun ottamatta.
+
+![Kuva4 h1](https://github.com/user-attachments/assets/4ac4e746-42a5-48a2-9f1a-9002af51043a)
 
 ## Lähteet 
 
