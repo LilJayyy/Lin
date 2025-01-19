@@ -9,7 +9,7 @@
 
 LÄHTEET 
 
-Karvinen, T. Artikkeli. 2006. Luettavissa: https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
+Karvinen, T. Artikkeli. 2006. Luettavissa: https://terokarvinen.com/2006/raportin-kirjoittaminen-4/ Luettu 19.1.2025.
 
 # What is free software
 
@@ -29,7 +29,7 @@ Neljä vapautta tarkoittaa
 
 LÄHTEET 
 
-Free SW. Artikkeli. Luettavissa: https://www.gnu.org/philosophy/free-sw.html
+Free SW. Artikkeli. Luettavissa: https://www.gnu.org/philosophy/free-sw.html Luettu 19.1.2025.
 
 ## h1 Tehtävän raportti
 Lähdin tekemään tehtävänantoa kotona sunnuntaina kello 15.05. VirtualBoxin asensin jo 14.1. tiistaina. Haasteena koin alkuun Virtualboxin käyttöliittymän, joka ei ole entuudestaan tuttu. Tietokoneeni on Fujitsu Lifebook E549 (Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz  1.80 GHz).
