@@ -38,7 +38,7 @@ Useampaa välilehteä kannattaa pitää auki asennusprosessin aikana. Avasin ohj
 Ensin piti kuitenkin asentaa virtuaalikone, jossa tein virheen. Hyppäsin suoraan Debianin asentamiseen. Onneksi tämä tuli huomattua alkuvaiheella. 
 Huomasin ohjeessa edetessä, että Debian olisikin pitänyt asentaa ennen virtuaalikoneen luomista. Kello oli jo 15.40, joten mielessä ollut ”Lyhyt” asennus olikin ajateltua pidempi. 
 
-Virtuaalikoneen buuttausta edelsi asennustietojen määrittely virtuaalikoneeseen, jossa valittiin Debian (64-bit), tyypiksi Linux, muistin kooksi 4000Mb ja luotiin virtual hard disk. Tiedoston kooksi valittiin 60GB, Hard disk file tyypiksi VDI (Virtualbox Disk Image) ja dynamically allocated valiten. Virtuaalikone ilmestyi tämän jälkeen Virtualbox Manageriin.
+Virtuaalikoneen buuttausta edelsi asennustietojen määrittely virtuaalikoneeseen, jossa valittiin Debian (64-bit), tyypiksi Linux, muistin kooksi 4000Mb, prosessorien määräksi 4 ja luotiin virtual hard disk. Tiedoston kooksi valittiin 60GB, Hard disk file tyypiksi VDI (Virtualbox Disk Image) ja dynamically allocated valiten. Virtuaalikone ilmestyi tämän jälkeen Virtualbox Manageriin.
 
 ![Kuva1 h1](https://github.com/user-attachments/assets/d2f944b4-2781-4c00-a69f-4aa0e548ac8d)
 
