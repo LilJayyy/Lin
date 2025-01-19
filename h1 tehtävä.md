@@ -70,6 +70,8 @@ Lopuksi tein vielä uudelleenkäynnistyksen käynnistys navigointipalkin vasemma
 
 ![Kuva4 h1](https://github.com/user-attachments/assets/4ac4e746-42a5-48a2-9f1a-9002af51043a)
 
+Lopputulos
+
 ## Lähteet 
 
 Bluestacks. Video. Youtube Enable Virtualization on Windows 11.
