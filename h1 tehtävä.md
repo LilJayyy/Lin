@@ -38,6 +38,7 @@ Useampaa välilehteä kannattaa pitää auki asennusprosessin aikana. Avasin ohj
 Ensin piti kuitenkin asentaa virtuaalikone, jossa tein virheen. Hyppäsin suoraan Debianin asentamiseen. Onneksi tämä tuli huomattua alkuvaiheella. 
 Huomasin ohjeessa edetessä, että Debian olisikin pitänyt asentaa ennen virtuaalikoneen luomista. Kello oli jo 15.40, joten mielessä ollut ”Lyhyt” asennus olikin ajateltua pidempi. 
 
+## Virtuaalikoneen asennus
 Virtuaalikoneen buuttausta edelsi asennustietojen määrittely virtuaalikoneeseen, jossa valittiin Debian (64-bit), tyypiksi Linux, muistin kooksi 4000Mb, prosessorien määräksi 4 ja luotiin virtual hard disk. Tiedoston kooksi valittiin 60GB, Hard disk file tyypiksi VDI (Virtualbox Disk Image) ja dynamically allocated valiten. Virtuaalikone ilmestyi tämän jälkeen Virtualbox Manageriin.
 
 ![Kuva1 h1](https://github.com/user-attachments/assets/d2f944b4-2781-4c00-a69f-4aa0e548ac8d)
@@ -55,11 +56,13 @@ Kohtasin ongelman, kun musta ruutu ilmestyi. Jouduin boottaamaan virtuaalikoneen
 
 Lähdin testaamaan virtuaalikoneen toimivuutta avaamalla selaimen ja Googletin ohjeistuksen mukaisesti ”Tero Karvinen” ja hakutulos aukesi onnistuneesti. Kello oli tässä vaiheessa 16.27 joten voisi sanoa, että asennusprosessin nopeaa etenemistä ei kannata olettaa ja on tärkeää varautua mahdollisiin virhetilanteisiin. 
 
+## Debian GNU/Linux installer
 Oli aika edetä Debian GNU/Linux Installerin pariin klikkaamalla työpöydän ”Install Debian” -kuvaketta. Lokaatioksi valitsin Finland, Kieleksi valitsin American English, Keybordiksi ”Generic 105-key PC (intl.).
 Seuraavalle sivulle edetessä klikattin Erase disk: Yes, Encrypt: No, Boot loader location: ”Master Boot Record..” Valitsin nimeksi oman koko nimeni, kirjautuminimeni, tietokoneen nimen, kuitenkin poistaen oman nimi tietokoneen nimestä, sillä siitä tulee myös Public Domain nimi ja lopuksi vielä salasana ja jätetään automaattinen sisäänkirjautuminen tyhjäksi. Lopuksi klikattiin ”Install” napista. Asennusvaihe kesti noin viisi minuuttia. Lopuksi klikkasin ”Restart now” -nappulaa.
 
 Käynnistymisessä meni hetki ja seuraavaksi syötettiin luotu käyttäjätunnus ja salasana. Kirjautuminen onnistui hienosti. Avasin jälleen Mozilla Firefox selaimen testaten toimivuutta onnistuneesti. 
 
+## Terminal ja komennot tehtäviin päivityksiin
 Lähdin avaamaan Terminaalin käynnistyspalkin ikonista ja syötin komennon sudo apt -get update. Salasanan syöttämisen jälkeen päivittämisprosessi lähti käyntiin. 
 Syötin komennon sudo apt-get -y dist upgrade eli päivitetään kaikki. 
 
