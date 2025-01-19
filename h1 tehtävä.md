@@ -20,8 +20,6 @@ Neljä vapautta tarkoittaa
 
 1. Vapaus käyttää ohjelmistoa kuten haluaa minkälaiseen käyttötarkoitukseen tahansa.
 
-1. Vapaus käyttää ohjelmistoa kuten haluaa minkälaiseen käyttötarkoitukseen tahansa.
-
 2. Vapautta opiskella/tutkia, sekä muokata toimivuutta oman käyttötarkituksen mukaan.
 
 3. Vapautta ohjelmiston kopioiden levitykseen auttaen muitakin käyttäjiä samalla
