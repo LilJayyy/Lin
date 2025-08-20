@@ -46,15 +46,15 @@ Seuraavalle sivulle edetessä klikattin Erase disk: Yes, Encrypt: No, Boot loade
 
 Lopuksi klikkasin ”Restart now” -ruutuun raksin ja lopuksi vielä "Done" -nappulaa.
 
-[images/Näyttökuva 2025-08-20 200143.png] (images/Näyttökuva 2025-08-20 200143.png)
+![images/Näyttökuva 2025-08-20 200143.png]
 
 Käynnistymisessä meni hetken aikaa ja melkein luuli jo asennuksen epäonnistuneen. Kyseessä olikin vain viive, tässä kohtaa kannattaa siis odottaa, kunnes Linux avautuu kunnolla. Seuraavaksi syötettiin  käyttäjätunnus ja salasana. Kirjautuminen onnistui hienosti. 
 
 Avasin testiksi jälleen Mozilla Firefoxin toimivuuden tarkistamiseksi.
 
-![images/Tyhjä viive.png] (images/Tyhjä viive.png)
+![images/Tyhjä viive.png] 
 
-![images/Näyttökuva 2025-08-20 212327.png] (images/Näyttökuva 2025-08-20 212327.png)
+![images/Näyttökuva 2025-08-20 212327.png] 
 
 ## Terminal ja komennot tehtäviin päivityksiin ja asennukseen
 Lähdin avaamaan Terminaalin käynnistyspalkin ikonista ja syötin komennon sudo apt -get update. Salasanan syöttämisen jälkeen päivittämisprosessi lähti käyntiin. 
