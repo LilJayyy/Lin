@@ -1,46 +1,26 @@
 # Raportin kirjoittaminen
-- Täsmällistä raporttia tehdessä pitää selittää selkeästi mitä komentoja antoi. On tärkeää myö muistaa kellonajat, joka kertoo lukijalle työvaihesiin kuluvan ajan.
-- Vikatilanteet ja virheilmoitukset pitää ilmaista selkeästi.
-- Aikamuodon on oltava menneessä aikamuodossa.
-- Raportin pitää olla helppolukuinen ja toistettava.
-- Pitää oikeasti tehdä tehdyt testit, eikä sepittää.
-- Kuvien luvaton kopiointi ei ole sallittua.
-- Lähteet tulee kirjoittaa selkeästi akateemisia käytäntöjä noudattaen, jolloin perehtyminen aihealueeseenkin tulee ilmi.
+
+- Täsmällisyys selittäen selkeästi mitä komentoja on antanut ja tarkat kellonajat työvaiheisiin kuuluvasta ajasta.
+- Helppolukuisuus väliotsikoita käyttäen ja kirjoita huolellista kieltä.
+- Toistettavuus eli jos antaa raportin toiselle opiskelijalle pitää sama tulos tulla harhapolkuineen.
 
 LÄHTEET 
-
-Karvinen, T. Artikkeli. 2006. Luettavissa: https://terokarvinen.com/2006/raportin-kirjoittaminen-4/ Luettu 19.1.2025.
-
-# What is free software
-
-- Free Softwarella tarkoitetaan vapaasti käytettävää ja muokattavaa ohjelmistoa, jota voi myös jakaa ilman rajoituksia.
-
-- "Free" ei tarkoita tässä tapauksessa ilmaista, vaan oikeuksia käyttää, jakaa ja muokata ilman rajoituksia.
-
-Neljä vapautta tarkoittaa
-
-1. Vapaus käyttää ohjelmistoa kuten haluaa minkälaiseen käyttötarkoitukseen tahansa.
-
-2. Vapautta opiskella/tutkia, sekä muokata toimivuutta oman käyttötarkituksen mukaan.
-
-3. Vapautta ohjelmiston kopioiden levitykseen auttaen muitakin käyttäjiä samalla
-
-4. Vapautta levittää itse muokattuja kopioita ohjelmistosta ja auttaen muita käyttäjiä. Tärkeää on muistaa lähdekoodin jakaminen.
-
-LÄHTEET 
-
-Free SW. Artikkeli. Luettavissa: https://www.gnu.org/philosophy/free-sw.html Luettu 19.1.2025.
+Karvinen, T. Artikkeli. 2006. Luettavissa: https://terokarvinen.com/2006/raportin-kirjoittaminen-4/ Luettu 20.8.2025
 
 # h1 Tehtävän raportti
-Lähdin tekemään tehtävänantoa kotona sunnuntaina kello 15.05. VirtualBoxin asensin jo 14.1. tiistaina. Haasteena koin alkuun Virtualboxin käyttöliittymän, joka ei ole entuudestaan tuttu. Tietokoneeni on Fujitsu Lifebook E549 (Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz  1.80 GHz).
-Useampaa välilehteä kannattaa pitää auki asennusprosessin aikana. Avasin ohjeen tehtävänannosta, joka vei Debianin asentamiseen Virtualboxilla (Karvinen, T. 2021).  
+Aloitin asentamisen 20.8. kello 19.30. Tietokoneeni on Fujitsu Lifebook E549 (Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz  1.80 GHz). Välilehdet kannattaa tyhjennellä ja pitää useampaa näyttöä asennusprosessin aikana, mikäli mahdollista. Uusin versio kirjoittaessa on ollut debian-live-13.0.0-amd64-xfce.iso. Debianin asennus koneeseen kesti noin viisi minuuttia. Katsoin ohjeen Debianin asentamiseen tehtävänannosta (Karvinen, T. 2021) ja Johannan ohjeesta (Heinonen, J. 2025).
+
+LÄHTEET
+Karvinen, T. 2021. Install Debian on Virtualbox. Artikkeli. Luettavissa:https://terokarvinen.com/2021/install-debian-on-virtualbox/ Luettu 20.08.2025
+Heinonen, J. 2025. Update linux-20082025.md. Verkkosivusto. Luettavissa: https://github.com/johannaheinonen/johanna-test-repo/blob/main/linux-20082025.md/ Luettu 20.08.2025
 
 ## Virtuaalikoneen asennus
+
 Virtuaalikoneen buuttausta edelsi asennustietojen määrittely virtuaalikoneeseen, jossa valittiin Debian (64-bit), tyypiksi Linux, muistin kooksi 4000Mb, prosessorien määräksi 4 ja luotiin virtual hard disk. Tiedoston kooksi valittiin 60GB, Hard disk file tyypiksi VDI (Virtualbox Disk Image) ja dynamically allocated valiten. Virtuaalikone ilmestyi tämän jälkeen Virtualbox Manageriin.
 
 ![Kuva1 h1](https://github.com/user-attachments/assets/d2f944b4-2781-4c00-a69f-4aa0e548ac8d)
 
-Klikkasin hiiren oikealla asetukset (settings) auki ja menin kohtaan "Storage". Valitsin Controller: IDE kohdasta CDROM "Empty" kohdan. Sieltä klikkasin Attribuuteista cd-levyn kuvakkeesta auki uuden ikkunan, jossa valitsin Virtual Optical Disk Fileksi aiemmin asennetun ja tallennetun ISO Disk imagen (debian-live-12.9.0-amd64-cinnamon.ISO).
+Klikkasin hiiren oikealla asetukset (settings) auki ja menin kohtaan "Storage". Valitsin Controller: IDE kohdasta CDROM "Empty" kohdan. Sieltä klikkasin Attribuuteista cd-levyn kuvakkeesta auki uuden ikkunan, jossa valitsin Virtual Optical Disk Fileksi aiemmin asennetun ja tallennetun ISO Disk imagen (debian-live-13.0.0-amd64-kde.iso).
 
 Tuplaklikkasin ohjeistuksen mukaisesti uuden virtuaalikoneen auki Virtualboxista, jonka asensin ohjeistuksen mukaisesti. Mutta tässä kohtaa tulikin virheilmoitus: ”Not in a hypervsor partition.” ”VT-X is disabled in the BIOS fo all CPU modes” (VERR_VMX_MSR-ALL_VMX_DISABLED).
 Lähdin etsimään tietoa virheilmoituksen koodin perusteella Googlesta. Löysin Youtubesta hyvän ohjeen, miten enabloidaan virtualisointi Windows 11:lla. (Youtube, Bluestacks. 2021). 
