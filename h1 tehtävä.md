@@ -19,7 +19,7 @@ Asennuksen jälkeen lähdin määrittelemään asetuksia. Valitaan Debian (64-bi
 
 Klikkasin hiiren oikealla asetukset (settings) auki ja menin kohtaan "Storage". Valitsin Controller: IDE kohdasta CDROM "Empty" kohdan. Sieltä klikkasin Attribuuteista cd-levyn kuvakkeesta auki uuden ikkunan, jossa valitsin Virtual Optical Disk Fileksi aiemmin asennetun ja tallennetun ISO Disk imagen (debian-live-13.0.0-amd64-kde.iso).
 
-Tuplaklikkasin ohjeistuksen mukaisesti uuden virtuaalikoneen auki Virtualboxista, jonka asensin ohjeistuksen mukaisesti. Tulikin virheilmoitus: ”Not in a hypervsor partition.” ”VT-X is disabled in the BIOS fo all CPU modes” (VERR_VMX_MSR-ALL_VMX_DISABLED).
+Avasin ohjeistuksen mukaisesti uuden virtuaalikoneen auki Virtualboxista tuplaklikkaamalla. Tulikin virheilmoitus: ”Not in a hypervsor partition.” ”VT-X is disabled in the BIOS fo all CPU modes” (VERR_VMX_MSR-ALL_VMX_DISABLED).
 Syötin virhekoodin Googleen ja löysin Youtubesta hyvän ohjeen, miten enabloidaan virtualisointi Windows 11:lla. (Youtube, Bluestacks. 2021). 
 
 Vikatilanteen korjaaminen onnistui hienosti virhekoodilla etsimällä ja videoa seuraamalla. Virhekoodi on aina hyvä ottaa talteen ja lähteä tutkimaan ongelmaa verkkosivujen avulla. Pienen viiveen jälkeen Virtualbox käynnistyi nätisti.
