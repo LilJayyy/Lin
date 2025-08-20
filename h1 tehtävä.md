@@ -9,7 +9,8 @@ LÄHTEET
 Karvinen, T. Artikkeli. 2006. Luettavissa: https://terokarvinen.com/2006/raportin-kirjoittaminen-4/ Luettu 20.8.2025
 
 # h1 Tehtävän raportti
-Aloitin asentamisen 20.8. kello 19.30. Tietokoneeni on Fujitsu Lifebook E549 (Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz  1.80 GHz). Välilehdet kannattaa tyhjennellä ja pitää useampaa näyttöä asennusprosessin aikana, mikäli mahdollista. Uusin versio kirjoittaessa on ollut debian-live-13.0.0-amd64-xfce.iso. Debianin asennus koneeseen kesti noin viisi minuuttia. 
+Aloitin asentamisen 20.8. kello 19.30. Tietokoneeni on Fujitsu Lifebook E549 (Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz  1.80 GHz). Suljin ylimääräiset välilehdet ja otin lisänäytöt käyttöön. 
+Uusin versio kirjoittaessa on ollut debian-live-13.0.0-amd64-xfce.iso. Debianin asennus koneeseen kesti noin viisi minuuttia. 
 Katsoin ohjeen Debianin asentamiseen tehtävänannosta (Karvinen, T. 2021) ja Johannan ohjeesta (Heinonen, J. 2025).
 
 ## Virtuaalikoneen asennus
