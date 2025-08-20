@@ -36,7 +36,7 @@ Asensin Debianin Live ISO -tiedostolla (debian-live-13.0.0-amd64-kde.iso), joka 
 
 Lähdin Debian GNU/Linux Installerin pariin klikkaamalla työpöydän ”Install Debian” -kuvaketta. Lokaatioksi valitsin Finland, Kieleksi valitsin American English, näppäimistön kieleksi English US, Keybordiksi ”Generic 105-key PC (intl.).
 
-https://github.com/LilJayyy/Linux-palvelimet/blob/main/images/Calamares%20installer.png
+![Calamares installer](https://github.com/kayttaja/repositorio/raw/main/images/Calamares%20installer.png)
 
 ![Kielivalinta](images/Kielivalinta.png)
 
