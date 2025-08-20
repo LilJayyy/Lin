@@ -16,22 +16,21 @@ Heinonen, J. 2025. Update linux-20082025.md. Verkkosivusto. Luettavissa: https:/
 
 ## Virtuaalikoneen asennus
 
-Virtuaalikoneen buuttausta edelsi asennustietojen määrittely virtuaalikoneeseen, jossa valittiin Debian (64-bit), tyypiksi Linux, muistin kooksi 4000Mb, prosessorien määräksi 4 ja luotiin virtual hard disk. Tiedoston kooksi valittiin 60GB, Hard disk file tyypiksi VDI (Virtualbox Disk Image) ja dynamically allocated valiten. Virtuaalikone ilmestyi tämän jälkeen Virtualbox Manageriin.
+Asennuksen jälkeen lähdin määrittelemään asetuksia. Valitaan Debian (64-bit), tyypiksi Linux, muistin kooksi 4000Mb, prosessorien määräksi 4 ja luotiin virtual hard disk. Tiedoston kooksi valittiin 60GB, Hard disk file tyypiksi VDI (Virtualbox Disk Image) ja dynamically allocated valiten. Virtuaalikone ilmestyi tämän jälkeen Virtualbox Manageriin.
 
 ![Kuva1 h1](https://github.com/user-attachments/assets/d2f944b4-2781-4c00-a69f-4aa0e548ac8d)
 
 Klikkasin hiiren oikealla asetukset (settings) auki ja menin kohtaan "Storage". Valitsin Controller: IDE kohdasta CDROM "Empty" kohdan. Sieltä klikkasin Attribuuteista cd-levyn kuvakkeesta auki uuden ikkunan, jossa valitsin Virtual Optical Disk Fileksi aiemmin asennetun ja tallennetun ISO Disk imagen (debian-live-13.0.0-amd64-kde.iso).
 
-Tuplaklikkasin ohjeistuksen mukaisesti uuden virtuaalikoneen auki Virtualboxista, jonka asensin ohjeistuksen mukaisesti. Mutta tässä kohtaa tulikin virheilmoitus: ”Not in a hypervsor partition.” ”VT-X is disabled in the BIOS fo all CPU modes” (VERR_VMX_MSR-ALL_VMX_DISABLED).
-Lähdin etsimään tietoa virheilmoituksen koodin perusteella Googlesta. Löysin Youtubesta hyvän ohjeen, miten enabloidaan virtualisointi Windows 11:lla. (Youtube, Bluestacks. 2021). 
+Tuplaklikkasin ohjeistuksen mukaisesti uuden virtuaalikoneen auki Virtualboxista, jonka asensin ohjeistuksen mukaisesti. Tulikin virheilmoitus: ”Not in a hypervsor partition.” ”VT-X is disabled in the BIOS fo all CPU modes” (VERR_VMX_MSR-ALL_VMX_DISABLED).
+Syötin virhekoodin Googleen ja löysin Youtubesta hyvän ohjeen, miten enabloidaan virtualisointi Windows 11:lla. (Youtube, Bluestacks. 2021). 
 
-Vikatilanteen korjaaminen onnistui hienosti virhekoodilla etsimällä ja videoa seuraamalla. Pääsin etenemään tehtävässä ja virtuaalikone käynnistyi hienosti.
-
-Kohtasin ongelman, kun musta ruutu ilmestyi. Jouduin boottaamaan virtuaalikoneen uudestaan. Avasin virtuaalikoneessa ensin Live system (amd64) mutta resetoin virtuaalikoneen ja kokeilin käynnistää Live system (amd64 fail-safe mode), joka onnistui hienosti odottelun jälkeen, joten palasin takaisin boottaamaan Live system (amd64) onnistuneesti. Kyseessä olikin vain viive.
+Vikatilanteen korjaaminen onnistui hienosti virhekoodilla etsimällä ja videoa seuraamalla. Virhekoodi on aina hyvä ottaa talteen ja lähteä tutkimaan ongelmaa verkkosivujen avulla. Pienen viiveen jälkeen Virtualbox käynnistyi nätisti.
 
 ![Kuva3 h1](https://github.com/user-attachments/assets/30db276e-0f68-43c9-9c36-e1605d673f89)
 
-Lähdin testaamaan virtuaalikoneen toimivuutta avaamalla selaimen ja Googletin ohjeistuksen mukaisesti ”Tero Karvinen” ja hakutulos aukesi onnistuneesti. Kello oli tässä vaiheessa 16.27 joten voisi sanoa, että asennusprosessin nopeaa etenemistä ei kannata olettaa ja on tärkeää varautua mahdollisiin virhetilanteisiin. 
+Lähdin testaamaan virtuaalikoneen toimivuutta avaamalla selaimen ja Googletin ohjeistuksen mukaisesti ”Tero Karvinen” ja hakutulos aukesi onnistuneesti. 
+<img width="1036" height="915" alt="image" src="https://github.com/user-attachments/assets/013f2f6f-891e-4310-80eb-4057cb628710" />
 
 ## Debian GNU/Linux installer
 Oli aika edetä Debian GNU/Linux Installerin pariin klikkaamalla työpöydän ”Install Debian” -kuvaketta. Lokaatioksi valitsin Finland, Kieleksi valitsin American English, Keybordiksi ”Generic 105-key PC (intl.).
