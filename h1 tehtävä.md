@@ -54,8 +54,9 @@ Katsottavissa: https://www.youtube.com/watch?v=t8f-zw_wcWM Katsottu: 20.8.2025.
 
 Debian install. Luettavissa: https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/ 20.08.2025  
 
+Heinonen, J. 2025. Update linux-20082025.md. Verkkosivusto. Luettavissa: https://github.com/johannaheinonen/johanna-test-repo/blob/main/linux-20082025.md/ Luettu 20.08.2025  
+
 Karvinen, T. 2021. Install Debian on Virtualbox. Artikkeli. Luettavissa:https://terokarvinen.com/2021/install-debian-on-virtualbox/ Luettu 20.08.2025  
 
-Heinonen, J. 2025. Update linux-20082025.md. Verkkosivusto. Luettavissa: https://github.com/johannaheinonen/johanna-test-repo/blob/main/linux-20082025.md/ Luettu 20.08.2025  
 
 
