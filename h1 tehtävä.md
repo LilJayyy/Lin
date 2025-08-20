@@ -14,16 +14,16 @@ Uusin versio kirjoittaessa on ollut debian-live-13.0.0-amd64-xfce.iso. Debianin 
 Katsoin ohjeen Debianin asentamiseen tehtävänannosta (Karvinen, T. 2021) ja Johannan ohjeesta (Heinonen, J. 2025).
 
 ## Virtuaalikoneen asennus
-Asennuksen jälkeen lähdin määrittelemään asetuksia. Valitaan Debian (64-bit), tyypiksi Linux, muistin kooksi 4000Mb, prosessorien määräksi 4 ja luotiin virtual hard disk. Tiedoston kooksi valittiin 60GB, Hard disk file tyypiksi VDI (Virtualbox Disk Image) ja dynamically allocated valiten. Virtuaalikone ilmestyi tämän jälkeen Virtualbox Manageriin.
+Asennuksen jälkeen lähdin määrittelemään asetuksia. Valitaan Debian (64-bit), tyypiksi Linux, muistin kooksi 4000Mb, prosessorien määräksi 4 ja luotiin virtual hard disk. 
+
+Tiedoston kooksi valittiin 60GB, Hard disk file tyypiksi VDI (Virtualbox Disk Image) ja dynamically allocated valiten. Virtuaalikone ilmestyi tämän jälkeen Virtualbox Manageriin.
 
 ![Kuva1 h1](https://github.com/user-attachments/assets/d2f944b4-2781-4c00-a69f-4aa0e548ac8d)
 
 Klikkasin hiiren oikealla asetukset (settings) auki ja menin kohtaan "Storage". Valitsin Controller: IDE kohdasta CDROM "Empty" kohdan. Sieltä klikkasin Attribuuteista cd-levyn kuvakkeesta auki uuden ikkunan, jossa valitsin Virtual Optical Disk Fileksi aiemmin asennetun ja tallennetun ISO Disk imagen (debian-live-13.0.0-amd64-kde.iso).
 
-Avasin uuden virtuaalikoneen auki Virtualboxista. Tulikin virheilmoitus: ”Not in a hypervsor partition.” ”VT-X is disabled in the BIOS fo all CPU modes” (VERR_VMX_MSR-ALL_VMX_DISABLED).
-Syötin virhekoodin Googleen ja löysin Youtubesta hyvän ohjeen, miten enabloidaan virtualisointi Windows 11:lla. (Youtube, Bluestacks. 2021). 
-
-Vikatilanteen korjaaminen onnistui hienosti virhekoodilla etsimällä ja videoa seuraamalla. Virhekoodi on aina hyvä ottaa talteen ja lähteä tutkimaan ongelmaa verkkosivujen avulla. Pienen viiveen jälkeen Virtualbox käynnistyi nätisti.
+Avasin uuden virtuaalikoneen auki Virtualboxista. Tuli virheilmoitus: ”Not in a hypervsor partition.” ”VT-X is disabled in the BIOS fo all CPU modes” (VERR_VMX_MSR-ALL_VMX_DISABLED).
+Syötin virhekoodin Googleen ja löysin Youtubesta ohjeen, miten enabloidaan virtualisointi Windows 11:lla. (Youtube, Bluestacks. 2021). Vikatilanteen korjaaminen onnistui hienosti virhekoodilla etsimällä ja videoa seuraamalla. 
 
 ![Kuva3 h1](https://github.com/user-attachments/assets/30db276e-0f68-43c9-9c36-e1605d673f89)
 
