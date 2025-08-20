@@ -10,10 +10,6 @@ Karvinen, T. Artikkeli. 2006. Luettavissa: https://terokarvinen.com/2006/raporti
 # h1 Tehtävän raportti
 Aloitin asentamisen 20.8. kello 19.30. Tietokoneeni on Fujitsu Lifebook E549 (Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz  1.80 GHz). Välilehdet kannattaa tyhjennellä ja pitää useampaa näyttöä asennusprosessin aikana, mikäli mahdollista. Uusin versio kirjoittaessa on ollut debian-live-13.0.0-amd64-xfce.iso. Debianin asennus koneeseen kesti noin viisi minuuttia. Katsoin ohjeen Debianin asentamiseen tehtävänannosta (Karvinen, T. 2021) ja Johannan ohjeesta (Heinonen, J. 2025).
 
-LÄHTEET
-Karvinen, T. 2021. Install Debian on Virtualbox. Artikkeli. Luettavissa:https://terokarvinen.com/2021/install-debian-on-virtualbox/ Luettu 20.08.2025
-Heinonen, J. 2025. Update linux-20082025.md. Verkkosivusto. Luettavissa: https://github.com/johannaheinonen/johanna-test-repo/blob/main/linux-20082025.md/ Luettu 20.08.2025
-
 ## Virtuaalikoneen asennus
 
 Asennuksen jälkeen lähdin määrittelemään asetuksia. Valitaan Debian (64-bit), tyypiksi Linux, muistin kooksi 4000Mb, prosessorien määräksi 4 ja luotiin virtual hard disk. Tiedoston kooksi valittiin 60GB, Hard disk file tyypiksi VDI (Virtualbox Disk Image) ja dynamically allocated valiten. Virtuaalikone ilmestyi tämän jälkeen Virtualbox Manageriin.
@@ -52,10 +48,9 @@ Lopuksi tein vielä uudelleenkäynnistyksen käynnistys navigointipalkin vasemma
 Lopputulos
 
 ## Lähteet 
-
 Bluestacks. Video. Youtube Enable Virtualization on Windows 11.
-Katsottavissa: https://www.youtube.com/watch?v=t8f-zw_wcWM
+Katsottavissa: https://www.youtube.com/watch?v=t8f-zw_wcWM Katsottu: 20.8.2025.
+Debian install. Luettavissa: https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/ 20.08.2025
+Karvinen, T. 2021. Install Debian on Virtualbox. Artikkeli. Luettavissa:https://terokarvinen.com/2021/install-debian-on-virtualbox/ Luettu 20.08.2025
+Heinonen, J. 2025. Update linux-20082025.md. Verkkosivusto. Luettavissa: https://github.com/johannaheinonen/johanna-test-repo/blob/main/linux-20082025.md/ Luettu 20.08.2025
 
-Karvinen, T. 2021. Install Debian on Virtualbox. Luettavissa: https://terokarvinen.com/2021/install-debian-on-virtualbox/ Luettu: 19.1.2025.
-
-Debian install. Luettavissa: https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/ Luettu 19.1.2025.
