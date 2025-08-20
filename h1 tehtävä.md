@@ -20,10 +20,10 @@ Tiedoston kooksi valittiin 60GB, Hard disk file tyypiksi VDI (Virtualbox Disk Im
 
 ![Kuva1 h1](https://github.com/user-attachments/assets/d2f944b4-2781-4c00-a69f-4aa0e548ac8d)
 
-Klikkasin hiiren oikealla asetukset (settings) auki ja menin kohtaan "Storage". Valitsin Controller: IDE kohdasta CDROM "Empty" kohdan. Sieltä klikkasin Attribuuteista cd-levyn kuvakkeesta auki uuden ikkunan, jossa valitsin Virtual Optical Disk Fileksi aiemmin asennetun ja tallennetun ISO Disk imagen (debian-live-13.0.0-amd64-kde.iso).
+Klikkasin hiiren oikealla asetukset (settings) auki ja menin kohtaan "Storage". Valitsin Controller: IDE kohdasta CDROM "Empty". Attribuuteista CD-levyn kuvakkeesta aukesi ikkuna, jossa valittiin Virtual Optical Disk Fileksi aiemmin asennetun ja tallennetun ISO Disk imagen (debian-live-13.0.0-amd64-kde.iso).
 
-Avasin uuden virtuaalikoneen auki Virtualboxista. Tuli virheilmoitus: ”Not in a hypervsor partition.” ”VT-X is disabled in the BIOS fo all CPU modes” (VERR_VMX_MSR-ALL_VMX_DISABLED).
-Syötin virhekoodin Googleen ja löysin Youtubesta ohjeen, miten enabloidaan virtualisointi Windows 11:lla. (Youtube, Bluestacks. 2021). 
+Avasin juuri asennetun virtuaalikoneen Virtualboxista. Tuli virheilmoitus: ”Not in a hypervsor partition.” ”VT-X is disabled in the BIOS fo all CPU modes” (VERR_VMX_MSR-ALL_VMX_DISABLED).
+Syötin virhekoodin Googleen ja löysin Youtubesta, miten enabloidaan virtualisointi Windows 11:lla. (Youtube, Bluestacks. 2021). 
 
 ![Kuva3 h1](https://github.com/user-attachments/assets/30db276e-0f68-43c9-9c36-e1605d673f89)
 
@@ -40,13 +40,21 @@ Lähdin Debian GNU/Linux Installerin pariin klikkaamalla työpöydän ”Install
 
 ![images/Kielivalinta.png] (images/Kielivalinta.png)
 
-Seuraavalle sivulle edetessä klikattin Erase disk: Yes, Encrypt: No, Boot loader location: ”Master Boot Record..” Valitsin nimeksi oman koko nimeni, kirjautuminimeni, tietokoneen nimen, kuitenkin poistaen oman nimi tietokoneen nimestä, sillä siitä tulee myös Public Domain nimi ja lopuksi vielä salasana ja jätetään automaattinen sisäänkirjautuminen tyhjäksi. Lopuksi klikattiin ”Install” napista. Asennusvaihe kesti noin viisi minuuttia. Lopuksi klikkasin ”Restart now” -ruutuun raksin ja lopuksi vielä "Done" -nappulaa.
+Seuraavalle sivulle edetessä klikattin Erase disk: Yes, Encrypt: No, Boot loader location: ”Master Boot Record..” Valitsin nimeksi oman koko nimeni, kirjautuminimeni, tietokoneen nimen, kuitenkin poistaen oman nimi tietokoneen nimestä, sillä siitä tulee myös Public Domain nimi ja lopuksi vielä salasana ja jätetään automaattinen sisäänkirjautuminen tyhjäksi. Lopuksi klikattiin ”Install” napista. Asennusvaihe kesti noin viisi minuuttia. 
+
+![images/Asennus käynnissä.png] (images/Asennus käynnissä.png)
+
+Lopuksi klikkasin ”Restart now” -ruutuun raksin ja lopuksi vielä "Done" -nappulaa.
 
 [images/Näyttökuva 2025-08-20 200143.png] (images/Näyttökuva 2025-08-20 200143.png)
 
-Käynnistymisessä meni hetki ja seuraavaksi syötettiin luotu käyttäjätunnus ja salasana. Kirjautuminen onnistui hienosti. Avasin jälleen Mozilla Firefox selaimen testaten toimivuutta onnistuneesti. 
+Käynnistymisessä meni hetken aikaa ja melkein luuli jo asennuksen epäonnistuneen. Kyseessä olikin vain viive, tässä kohtaa kannattaa siis odottaa, kunnes Linux avautuu kunnolla. Seuraavaksi syötettiin  käyttäjätunnus ja salasana. Kirjautuminen onnistui hienosti. 
 
+Avasin testiksi jälleen Mozilla Firefoxin toimivuuden tarkistamiseksi.
 
+![images/Tyhjä viive.png] (images/Tyhjä viive.png)
+
+![images/Näyttökuva 2025-08-20 212327.png] (images/Näyttökuva 2025-08-20 212327.png)
 
 ## Terminal ja komennot tehtäviin päivityksiin ja asennukseen
 Lähdin avaamaan Terminaalin käynnistyspalkin ikonista ja syötin komennon sudo apt -get update. Salasanan syöttämisen jälkeen päivittämisprosessi lähti käyntiin. 
