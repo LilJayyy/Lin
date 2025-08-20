@@ -36,17 +36,17 @@ Asensin Debianin Live ISO -tiedostolla (debian-live-13.0.0-amd64-kde.iso), joka 
 
 Lähdin Debian GNU/Linux Installerin pariin klikkaamalla työpöydän ”Install Debian” -kuvaketta. Lokaatioksi valitsin Finland, Kieleksi valitsin American English, näppäimistön kieleksi English US, Keybordiksi ”Generic 105-key PC (intl.).
 
-![images/Calamares installer.png] (images/Calamares installer.png)
+![images/Calamares installer.png] (images/Calamaresinstaller.png)
 
 ![images/Kielivalinta.png] (images/Kielivalinta.png)
 
 Seuraavalle sivulle edetessä klikattin Erase disk: Yes, Encrypt: No, Boot loader location: ”Master Boot Record..” Valitsin nimeksi oman koko nimeni, kirjautuminimeni, tietokoneen nimen, kuitenkin poistaen oman nimi tietokoneen nimestä, sillä siitä tulee myös Public Domain nimi ja lopuksi vielä salasana ja jätetään automaattinen sisäänkirjautuminen tyhjäksi. Lopuksi klikattiin ”Install” napista. Asennusvaihe kesti noin viisi minuuttia. 
 
-![images/Asennus käynnissä.png] (images/Asennus käynnissä.png)
+![images/Asennus käynnissä.png] (images/Asennuskäynnissä.png)
 
 Lopuksi klikkasin ”Restart now” -ruutuun raksin ja lopuksi vielä "Done" -nappulaa.
 
-![images/Näyttökuva 2025-08-20 200143.png]
+![images/Näyttökuva 2025-08-20 200143.png] (
 
 Käynnistymisessä meni hetken aikaa ja melkein luuli jo asennuksen epäonnistuneen. Kyseessä olikin vain viive, tässä kohtaa kannattaa siis odottaa, kunnes Linux avautuu kunnolla. Seuraavaksi syötettiin  käyttäjätunnus ja salasana. Kirjautuminen onnistui hienosti. 
 
