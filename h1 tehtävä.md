@@ -24,7 +24,7 @@ Asennuksen jälkeen lähdin määrittelemään asetuksia.
 * Hard disk file tyypiksi VDI (Virtualbox Disk Image) 
 * Valitaan dynamically allocated.
 
-![Debian asennus 1](kuvat/Debianasennus1.png)
+![virtual](kuvat/virtual.png)
 
 Virtuaalikone ilmestyi tämän jälkeen Virtualbox Manageriin.
 
