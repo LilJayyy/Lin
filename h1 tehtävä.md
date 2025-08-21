@@ -14,9 +14,16 @@ Uusin versio kirjoittaessa on ollut debian-live-13.0.0-amd64-xfce.iso. Debianin 
 Katsoin ohjeen Debianin asentamiseen tehtävänannosta (Karvinen, T. 2021) ja Johannan ohjeesta (Heinonen, J. 2025).
 
 ## Virtuaalikoneen asennus
-Asennuksen jälkeen lähdin määrittelemään asetuksia. Valitaan Debian (64-bit), tyypiksi Linux, muistin kooksi 4000Mb, prosessorien määräksi 4 ja luotiin virtual hard disk. 
+Asennuksen jälkeen lähdin määrittelemään asetuksia. 
 
-Tiedoston kooksi valittiin 60GB, Hard disk file tyypiksi VDI (Virtualbox Disk Image) ja dynamically allocated valiten. Virtuaalikone ilmestyi tämän jälkeen Virtualbox Manageriin.
+* Valitaan Debian (64-bit), tyypiksi Linux
+* Muistin kooksi 4000Mb, 
+* Prosessorien (CPU) määräksi 4 & klikataan virtual hard disk. 
+* 60GB Tiedoston kooksi
+* Hard disk file tyypiksi VDI (Virtualbox Disk Image) 
+* Valitaan dynamically allocated.
+
+Virtuaalikone ilmestyi tämän jälkeen Virtualbox Manageriin.
 
 ![Kuva1 h1](https://github.com/user-attachments/assets/d2f944b4-2781-4c00-a69f-4aa0e548ac8d)
 
@@ -51,8 +58,6 @@ Lopuksi klikkasin ”Restart now” -ruutuun raksin ja lopuksi vielä "Done" -na
 Käynnistymisessä meni hetken aikaa ja melkein luuli jo asennuksen epäonnistuneen. Kyseessä olikin vain viive, tässä kohtaa kannattaa siis odottaa, kunnes Linux avautuu kunnolla. Seuraavaksi syötettiin  käyttäjätunnus ja salasana. Kirjautuminen onnistui hienosti. 
 
 Avasin testiksi jälleen Mozilla Firefoxin toimivuuden tarkistamiseksi.
-
-![lataa](kuvat/lataa.png)
 
 ## Terminal ja komennot tehtäviin päivityksiin ja asennukseen
 Lähdin avaamaan Terminaalin käynnistyspalkin ikonista ja syötin komennon sudo apt -get update. Salasanan syöttämisen jälkeen päivittämisprosessi lähti käyntiin. 
