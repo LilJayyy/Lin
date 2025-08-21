@@ -28,6 +28,8 @@ Asennuksen jälkeen lähdin määrittelemään asetuksia.
 
 Virtuaalikone ilmestyi tämän jälkeen Virtualbox Manageriin.
 
+![kone](kuvat/kone.png)
+
 Klikkasin hiiren oikealla asetukset (settings) auki ja menin kohtaan "Storage". Valitsin Controller: IDE kohdasta CDROM "Empty". Attribuuteista CD-levyn kuvakkeesta aukesi ikkuna, jossa valittiin Virtual Optical Disk Fileksi aiemmin asennetun ja tallennetun ISO Disk imagen (debian-live-13.0.0-amd64-kde.iso).
 
 Avasin juuri asennetun virtuaalikoneen Virtualboxista. Tuli virheilmoitus: ”Not in a hypervsor partition.” ”VT-X is disabled in the BIOS fo all CPU modes” (VERR_VMX_MSR-ALL_VMX_DISABLED).
