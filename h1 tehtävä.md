@@ -10,7 +10,7 @@
   
 - Vakioteksti, esimerkiksi lisenssin valinta, kuten GPL. Raportin pohjana käytetty materiaali myös mainittava, jos sellaista käytetty.
 
-- Pahoja mokia kuten kuvien luvaton kopiointi tai plagiointi. Lähde on aina ilmoitettava.
+- Pahoja mokia kuten kuvien luvaton kopiointi ja plagiointi. Lähde on myös aina ilmoitettava.
 
 
 
