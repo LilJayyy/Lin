@@ -40,7 +40,9 @@ Syötin virhekoodin Googleen ja löysin Youtubesta, miten enabloidaan virtualiso
 
 ![Kuva3 h1](https://github.com/user-attachments/assets/30db276e-0f68-43c9-9c36-e1605d673f89)
 
-Virheilmoitus ilmestyi jälleen. Aiemmin ladattu ISO -tiedosto esti virtuaalikoneen käynnistymisen. Mikäli aiempi ISO -tiedosto on ladattu koneeseen, tulee valita virheilmoituksen alasvetovalikosta haluttu ISO -tiedosto (debian-live-13.0.0-amd64-kde.iso). 
+Virheilmoitus ilmestyi jälleen. Virtuaalikoneen käynnistyminen epäonnistui, koska aiemmin ladattu ISO-tiedosto oli valittuna. 
+
+Mikäli aiempi ISO -tiedosto on ladattu koneeseen, tulee valita virheilmoituksen alasvetovalikosta haluttu ISO -tiedosto (debian-live-13.0.0-amd64-kde.iso). 
 
 ![kuva5](kuvat/kuva5.png)
 
