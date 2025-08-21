@@ -9,8 +9,9 @@ LÄHTEET
 Karvinen, T. Artikkeli. 2006. Luettavissa: https://terokarvinen.com/2006/raportin-kirjoittaminen-4/ Luettu 20.8.2025
 
 # h1 Tehtävän raportti
-Aloitin asentamisen 20.8. kello 19.30. Tietokoneeni on Fujitsu Lifebook E549 (Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz  1.80 GHz). Suljin ylimääräiset välilehdet ja otin lisänäytöt käyttöön. 
-Uusin versio kirjoittaessa on ollut debian-live-13.0.0-amd64-xfce.iso. Debianin asennus koneeseen kesti noin viisi minuuttia. 
+Aloitin asentamisen 20.8. kello 19.30. Tietokoneeni on Fujitsu Lifebook E549 (Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz  1.80 GHz). 
+Ensiksi asensin virtuaalikoneen Virtualboxilla, jonka jälkeen asennettiin Debian juuri luotuun virtuaalikoneeseen. Suljin ylimääräiset välilehdet ja otin lisänäytöt käyttöön. 
+Uusin versio kirjoittaessa on ollut debian-live-13.0.0-amd64-xfce.iso.
 Katsoin ohjeen Debianin asentamiseen tehtävänannosta (Karvinen, T. 2021) ja Johannan ohjeesta (Heinonen, J. 2025).
 
 ## Virtuaalikoneen asennus
@@ -24,8 +25,6 @@ Asennuksen jälkeen lähdin määrittelemään asetuksia.
 * Valitaan dynamically allocated.
 
 Virtuaalikone ilmestyi tämän jälkeen Virtualbox Manageriin.
-
-![Kuva1 h1](https://github.com/user-attachments/assets/d2f944b4-2781-4c00-a69f-4aa0e548ac8d)
 
 Klikkasin hiiren oikealla asetukset (settings) auki ja menin kohtaan "Storage". Valitsin Controller: IDE kohdasta CDROM "Empty". Attribuuteista CD-levyn kuvakkeesta aukesi ikkuna, jossa valittiin Virtual Optical Disk Fileksi aiemmin asennetun ja tallennetun ISO Disk imagen (debian-live-13.0.0-amd64-kde.iso).
 
