@@ -4,12 +4,12 @@
 - Helppolukuisuus väliotsikoita käyttäen ja kirjoita huolellista kieltä.
 - Toistettavuus eli jos antaa raportin toiselle opiskelijalle pitää sama tulos tulla harhapolkuineen.
 
-LÄHTEET   
+**LÄHTEET**  
 
 Karvinen, T. Artikkeli. 2006. Luettavissa: https://terokarvinen.com/2006/raportin-kirjoittaminen-4/ Luettu 20.8.2025
 
 # h1 Tehtävän raportti
-Aloitin asentamisen 20.8. kello 19.30. Tietokoneeni on Fujitsu Lifebook E549 (Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz  1.80 GHz). 
+Aloitin asentamisen 20.8.2025 kello 19.30. Tietokoneeni on Fujitsu Lifebook E549 (Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz  1.80 GHz). 
 Ensiksi asensin virtuaalikoneen Virtualboxilla, jonka jälkeen asensin Debian/GNU Linuxin ISO -tiedostolla juuri luotuun virtuaalikoneeseen. 
 
 Käytin asennuksessa uusinta saatavilla ollutta versiota, joka raportin tekohetkellä oli debian-live-13.0.0-amd64-xfce.iso.
@@ -35,12 +35,12 @@ Virtuaalikone ilmestyi tämän jälkeen Virtualbox Manageriin.
 
 Klikkasin hiiren oikealla asetukset (settings) auki ja menin kohtaan "Storage". Valitsin Controller: IDE kohdasta CDROM "Empty". Attribuuteista CD-levyn kuvakkeesta aukesi ikkuna, jossa valittiin Virtual Optical Disk Fileksi aiemmin asennetun ja tallennetun ISO Disk imagen (debian-live-13.0.0-amd64-kde.iso).
 
-Avasin juuri asennetun virtuaalikoneen Virtualboxista. Tuli virheilmoitus: ”Not in a hypervsor partition.” ”VT-X is disabled in the BIOS fo all CPU modes” (VERR_VMX_MSR-ALL_VMX_DISABLED).
+Avasin juuri asennetun virtuaalikoneen Virtualboxista. Tuli virheilmoitus: ”Not in a hypervsor partition.” ”VT-X is disabled in the BIOS for all CPU modes” (VERR_VMX_MSR-ALL_VMX_DISABLED).
 Syötin virhekoodin Googleen ja löysin Youtubesta, miten enabloidaan virtualisointi Windows 11:lla. (Youtube, Bluestacks. 2021). 
 
 ![Kuva3 h1](https://github.com/user-attachments/assets/30db276e-0f68-43c9-9c36-e1605d673f89)
 
-Tulikin jälleen virheilmoitus, aiemmin ladattu ISO -tiedosto kaatoi virtuaalikoneen käynnistyksen. Alasvetovalikosta valitsemalla oikea ISO -tiedosto (debian-live-13.0.0-amd64-kde.iso) käynnistyi virtuaalikone nätisti.
+Tulikin jälleen virheilmoitus, aiemmin ladattu ISO -tiedosto kaatoi virtuaalikoneen käynnistyksen. Mikäli siis aiempi ISO -tiedosto on ladattu koneeseen, tulee valita virheilmoituksen alasvetovalikosta haluttu ISO -tiedosto (debian-live-13.0.0-amd64-kde.iso). Virtuaalikone käynnistyi tämän jälkeen normaalisti.
 
 ![kuva5](kuvat/kuva5.png)
 
@@ -51,17 +51,17 @@ Asensin Debianin Live ISO -tiedostolla (debian-live-13.0.0-amd64-kde.iso), joka 
 
 ![Calamares](kuvat/Calamares.png)
 
-Lähdin Debian GNU/Linux Installerin pariin klikkaamalla työpöydän ”Install Debian” -kuvaketta. Lokaatioksi valitsin Finland, Kieleksi valitsin American English, näppäimistön kieleksi English US, Keybordiksi ”Generic 105-key PC (intl.).
+Lähdin Debian GNU/Linux Installerin pariin klikkaamalla työpöydän ”Install Debian” -kuvaketta. Lokaatioksi valitsin Finland, Kieleksi valitsin American English, näppäimistön kieleksi English US, Keyboardiksi ”Generic 105-key PC (intl.).
 
 ![Kielivalinta](kuvat/Kielivalinta.png)
 
-Seuraavalle sivulle edetessä klikattin 
+Seuraavalle sivulle edetessä klikattiin 
 * Erase disk: Yes
 * Encrypt: No, Boot loader location: ”Master Boot Record..”
-* Valitsin nimeksi oman koko nimeni, kirjautuminimeni, tietokoneen nimen, kuitenkin poistaen oman nimi tietokoneen nimestä, sillä siitä tulee myös Public Domain nimi ja lopuksi vielä salasana ja jätetään automaattinen sisäänkirjautuminen tyhjäksi.
+* Valitsin nimeksi koko nimeni ja kirjautumisnimeni. Tietokoneen nimestä poistin oman nimeni, koska siitä tulee myös julkinen nimi. Lopuksi syötin salasanan ja jätin automaattisen sisäänkirjautumisen tyhjäksi.
 * Lopuksi klikattiin ”Install” napista.
 
-Asennusvaihe kesti noin viisi minuuttia. 
+Tämä asennusvaihe kesti noin viisi minuuttia. 
 
 ![Asennus](kuvat/Asennus.png)
 
@@ -76,13 +76,30 @@ Käynnistymisessä meni hetken aikaa ja melkein luuli jo asennuksen epäonnistun
 Avasin testiksi vielä Mozilla Firefoxin toimivuuden tarkistamiseksi, joka lähti toimimaan odotetusti.
 
 ## Terminal ja komennot tehtäviin päivityksiin ja asennukseen
-Lähdin avaamaan Terminaalin käynnistyspalkin ikonista ja syötin komennon sudo apt -get update. Salasanan syöttämisen jälkeen päivittämisprosessi lähti käyntiin. 
-Syötin komennon sudo apt-get -y dist upgrade eli päivitetään kaikki. 
+Lähdin avaamaan Terminaalin käynnistyspalkin ikonista ja tässä vaiheessa asennusprosessi on kestänyt hieman alle tunnin. 
 
-Virhetilanne tosin tuli jälleen, kun syötin ylimääräisen välilyönnin komentoon. Klikkasin nuolta ylöspäin, jolla sain kopioitua koko komennon ja poistin välilyönnin välistä, ja päivittäminen alkoi, jossa meni hetki. 
-Asensin tämän jälkeen palomuurin komennoilla: sudo apt-get -y install ufw ja sudo ufw enable. Sain vahvistuksen onnistuneeseen asennukseen tekstillä ”Firewall is active and enabled on system startup”. 
+Syötin alkuun komennon ls -la joka lähti listaamaan tiedostot ja kansiot.
+![Terminal](kuvat/Terminal.png)
 
-Lopuksi tein vielä uudelleenkäynnistyksen käynnistys navigointipalkin vasemmasta kuvakkeesta. Kirjauduin sisään tunnuksilla ja olimmekin päässeet tämän harjoituksen loppuun. Linuxin asennus oli onnistunut. Kello oli tässä kohtaa 17.10. 
+Seuraavaksi syötin komennon sudo apt-get update. Salasanan syöttämisen jälkeen päivittämisprosessi lähti käyntiin, tietenkin muutaman klassisen kirjoitusvirheen jälkeen - jota täytyi hetken ihmetellä.
+
+![sudo](kuvat/sudo.png)
+
+* Syötin komennon sudo apt-get -y dist-upgrade eli päivitetään kaikki. Vaihe kesti muutaman minuutin.
+
+![update](kuvat/update.png)
+
+Terminalissa jatkettiin vielä palomuurin asentamisella ja käynnistyksellä komennoilla:
+* sudo apt-get -y install ufw
+* sudo ufw enable
+
+  Lopputulos näytti tältä onnistuneen asentamisen jälkeen
+  
+  ![fire](kuvat/fire.png)
+
+Uudelleenkäynnistyksen aika, eli valitsein ylälaidan "Applications" -valikosta "Log out" ja lopuksi vielä "Restart".
+
+Vielä käyttäjätunnuksilla kirjautuminen ja kone kehräsi kauniisti. Olimmekin päässeet tämän harjoituksen loppuun. Linuxin asennus oli onnistunut. Kello oli tässä kohtaa 21:30 jolloin raportti ja asennusprosessit vaiheineen ovat valmiita.
 
 ![Kuva4 h1](https://github.com/user-attachments/assets/4ac4e746-42a5-48a2-9f1a-9002af51043a)
 
