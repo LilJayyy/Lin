@@ -14,7 +14,7 @@ Ensiksi asensin virtuaalikoneen Virtualboxilla, jonka jälkeen asensin Debian/GN
 
 Käytin asennuksessa uusinta saatavilla ollutta versiota, joka raportin tekohetkellä oli debian-live-13.0.0-amd64-xfce.iso, ja joka sisälsi Calamares-asennusohjelman.
 
-Tässä asennusprosessissa hyödynsin sekä (Karvinen, T. 2021) että (Heinonen, J. 2025) ohjeita.
+Tässä asennusprosessissa hyödynsin sekä Karvisen (2021) että Heinonenin (2025) ohjeita.
 
 ## Virtuaalikoneen asennus
 Asennuksen jälkeen lähdin määrittelemään asetuksia. 
