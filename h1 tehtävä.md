@@ -12,7 +12,7 @@ Karvinen, T. Artikkeli. 2006. Luettavissa: https://terokarvinen.com/2006/raporti
 Aloitin asentamisen 20.8.2025 kello 19.30. Tietokoneeni on Fujitsu Lifebook E549 (Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz  1.80 GHz). 
 Ensiksi asensin virtuaalikoneen Virtualboxilla, jonka jälkeen asensin Debian/GNU Linuxin ISO -tiedostolla juuri luotuun virtuaalikoneeseen. 
 
-Käytin asennuksessa uusinta saatavilla ollutta versiota, joka raportin tekohetkellä oli debian-live-13.0.0-amd64-xfce.iso. Joka sisälsi Calamares-asennusohjelman.
+Käytin asennuksessa uusinta saatavilla ollutta versiota, joka raportin tekohetkellä oli debian-live-13.0.0-amd64-xfce.iso, ja joka sisälsi Calamares-asennusohjelman.
 
 Tässä asennusprosessissa hyödynsin sekä Teron (Karvinen, T. 2021) että Johannan (Heinonen, J. 2025) ohjeita.
 
@@ -105,7 +105,7 @@ Terminalissa jatkettiin vielä palomuurin asentamisella ja käynnistyksellä kom
 
 Uudelleenkäynnistyksen aika, eli valitsein ylälaidan "Applications" -valikosta "Log out" ja lopuksi vielä "Restart".
 
-Vielä käyttäjätunnuksilla kirjautuminen ja kone kehräsi kauniisti. Olimmekin päässeet tämän harjoituksen loppuun. Linuxin asennus oli onnistunut. Kello oli tässä kohtaa 21:30 jolloin raportti ja asennusprosessit vaiheineen ovat valmiita.
+Vielä käyttäjätunnuksilla kirjautuminen ja olimmekin päässeet tämän harjoituksen loppuun. Linuxin asennus oli onnistunut. Kello oli tässä kohtaa 21:30 jolloin raportti ja asennusprosessit vaiheineen ovat valmiita.
 
 ![Kuva4 h1](https://github.com/user-attachments/assets/4ac4e746-42a5-48a2-9f1a-9002af51043a)
 
