@@ -67,6 +67,8 @@ Seuraavalle sivulle edetessä klikattiin
 
 Tämä asennusvaihe kesti noin viisi minuuttia. 
 
+![salasana](kuvat/salasana.png)
+
 ![Asennus](kuvat/Asennus.png)
 
 Asennuksen valmistuttua ruksin ”Restart now” -ruudun ja lopuksi vielä klikataan "Done" -nappulaa.
@@ -74,8 +76,6 @@ Asennuksen valmistuttua ruksin ”Restart now” -ruudun ja lopuksi vielä klika
 ![done](kuvat/done.png)
 
 Käynnistymisessä meni hetken aikaa ja melkein luuli jo asennuksen epäonnistuneen. Kyseessä olikin vain viive, tässä kohtaa kannattaa siis odottaa, kunnes Linux avautuu kunnolla. 
-
-![salasana](kuvat/salasana.png)
 
 Avasin testiksi vielä Mozilla Firefoxin toimivuuden tarkistamiseksi, joka lähti toimimaan odotetusti.
 
