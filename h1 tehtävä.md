@@ -85,13 +85,11 @@ Lähdin avaamaan Terminaalin käynnistyspalkin ikonista ja tässä vaiheessa ase
 Syötin alkuun komennon ls -la joka lähti listaamaan tiedostot ja kansiot.
 ![Terminal](kuvat/Terminal.png)
 
-Seuraavaksi syötin komennon sudo apt-get update. Salasanan syöttämisen jälkeen päivittämisprosessi lähti käyntiin, tietenkin muutaman klassisen kirjoitusvirheen jälkeen - jota täytyi hetken ihmetellä.
+Seuraavaksi syötin komennot:
+* sudo apt-get update. -> Salasanan syöttämisen jälkeen päivittämisprosessi lähti käyntiin, tietenkin muutaman klassisen kirjoitusvirheen jälkeen - jota täytyi hetken ihmetellä.
+* sudo apt-get -y dist-upgrade eli päivitetään kaikki.
 
-![sudo](kuvat/sudo.png)
-
-* Syötin komennon sudo apt-get -y dist-upgrade eli päivitetään kaikki. Vaihe kesti muutaman minuutin.
-
-![update](kuvat/update.png)
+Vaihe kesti muutaman minuutin.
 
 Terminalissa jatkettiin vielä palomuurin asentamisella ja käynnistyksellä komennoilla:
 * sudo apt-get -y install ufw
