@@ -33,10 +33,13 @@ Virtuaalikone ilmestyi tämän jälkeen Virtualbox Manageriin.
 
 ![kone](kuvat/kone.png)
 
-Klikkasin hiiren oikealla asetukset (settings) auki ja menin kohtaan "Storage". Valitsin Controller: IDE kohdasta CDROM "Empty". Attribuuteista CD-levyn kuvakkeesta aukesi ikkuna, jossa valittiin Virtual Optical Disk Fileksi aiemmin asennetun ja tallennetun ISO Disk imagen (debian-live-13.0.0-amd64-kde.iso).
+Ylälaidan pinikkeesta valittiin "Settings"
+
+* Valitaan "Storage". 
+* Controller: IDE kohdasta CDROM "Empty".
+* Attribuuteista CD-levyn kuvakkeesta valittiin Virtual Optical Disk Fileksi aiemmin asennetun ja tallennetun ISO Disk imagen (debian-live-13.0.0-amd64-kde.iso).
 
 Avasin juuri asennetun virtuaalikoneen Virtualboxista. Tuli virheilmoitus: ”Not in a hypervsor partition.” ”VT-X is disabled in the BIOS for all CPU modes” (VERR_VMX_MSR-ALL_VMX_DISABLED).
-
 
 Syötin virhekoodin Googleen ja löysin Youtubesta, miten enabloidaan virtualisointi Windows 11:lla. (Youtube, Bluestacks. 2021). 
 
