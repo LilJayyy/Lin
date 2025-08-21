@@ -77,7 +77,7 @@ Asennuksen valmistuttua ruksin ”Restart now” -ruudun ja lopuksi vielä klika
 
 ![done](kuvat/done.png)
 
-Käynnistymisessä meni hetken aikaa ja melkein luuli jo asennuksen epäonnistuneen. Kyseessä olikin vain viive, tässä kohtaa kannattaa siis odottaa, kunnes Linux avautuu kunnolla. 
+Käynnistymisessä meni hetken aikaa ja melkein luuli jo asennuksen epäonnistuneen. Kyseessä olikin vain viive, tässä kohtaa kannattaa siis odottaa, kunnes kone avautuu kunnolla. 
 
 Avasin testiksi vielä Mozilla Firefoxin toimivuuden tarkistamiseksi, joka lähti toimimaan odotetusti.
 
