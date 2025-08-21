@@ -42,7 +42,7 @@ Lähdin Debian GNU/Linux Installerin pariin klikkaamalla työpöydän ”Install
 
 Seuraavalle sivulle edetessä klikattin Erase disk: Yes, Encrypt: No, Boot loader location: ”Master Boot Record..” Valitsin nimeksi oman koko nimeni, kirjautuminimeni, tietokoneen nimen, kuitenkin poistaen oman nimi tietokoneen nimestä, sillä siitä tulee myös Public Domain nimi ja lopuksi vielä salasana ja jätetään automaattinen sisäänkirjautuminen tyhjäksi. Lopuksi klikattiin ”Install” napista. Asennusvaihe kesti noin viisi minuuttia. 
 
-![Asennus käynnissä](kuvat/Asennuskäynnissä.png)
+![Asennus](kuvat/Asennus.png)
 
 Lopuksi klikkasin ”Restart now” -ruutuun raksin ja lopuksi vielä "Done" -nappulaa.
 
