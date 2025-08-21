@@ -47,17 +47,23 @@ Lähdin Debian GNU/Linux Installerin pariin klikkaamalla työpöydän ”Install
 
 ![Kielivalinta](kuvat/Kielivalinta.png)
 
-Seuraavalle sivulle edetessä klikattin Erase disk: Yes, Encrypt: No, Boot loader location: ”Master Boot Record..” Valitsin nimeksi oman koko nimeni, kirjautuminimeni, tietokoneen nimen, kuitenkin poistaen oman nimi tietokoneen nimestä, sillä siitä tulee myös Public Domain nimi ja lopuksi vielä salasana ja jätetään automaattinen sisäänkirjautuminen tyhjäksi. Lopuksi klikattiin ”Install” napista. Asennusvaihe kesti noin viisi minuuttia. 
+Seuraavalle sivulle edetessä klikattin 
+* Erase disk: Yes
+* Encrypt: No, Boot loader location: ”Master Boot Record..”
+* Valitsin nimeksi oman koko nimeni, kirjautuminimeni, tietokoneen nimen, kuitenkin poistaen oman nimi tietokoneen nimestä, sillä siitä tulee myös Public Domain nimi ja lopuksi vielä salasana ja jätetään automaattinen sisäänkirjautuminen tyhjäksi.
+* Lopuksi klikattiin ”Install” napista.
+
+Asennusvaihe kesti noin viisi minuuttia. 
 
 ![Asennus](kuvat/Asennus.png)
 
-Lopuksi klikkasin ”Restart now” -ruutuun raksin ja lopuksi vielä "Done" -nappulaa.
+Asennuksen valmistuttua ruksin ”Restart now” -ruudun ja lopuksi vielä klikataan "Done" -nappulaa.
 
 ![done](kuvat/done.png)
 
 Käynnistymisessä meni hetken aikaa ja melkein luuli jo asennuksen epäonnistuneen. Kyseessä olikin vain viive, tässä kohtaa kannattaa siis odottaa, kunnes Linux avautuu kunnolla. Seuraavaksi syötettiin  käyttäjätunnus ja salasana. Kirjautuminen onnistui hienosti. 
 
-Avasin testiksi jälleen Mozilla Firefoxin toimivuuden tarkistamiseksi.
+Avasin testiksi jälleen Mozilla Firefoxin toimivuuden tarkistamiseksi, joka lähti toimimaan odotetusti.
 
 ## Terminal ja komennot tehtäviin päivityksiin ja asennukseen
 Lähdin avaamaan Terminaalin käynnistyspalkin ikonista ja syötin komennon sudo apt -get update. Salasanan syöttämisen jälkeen päivittämisprosessi lähti käyntiin. 
