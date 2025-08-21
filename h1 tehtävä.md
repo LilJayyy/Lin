@@ -12,7 +12,7 @@ Karvinen, T. Artikkeli. 2006. Luettavissa: https://terokarvinen.com/2006/raporti
 Aloitin asentamisen 20.8.2025 kello 19.30. Tietokoneeni on Fujitsu Lifebook E549 (Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz  1.80 GHz). 
 Ensiksi asensin virtuaalikoneen Virtualboxilla, jonka jälkeen asensin Debian/GNU Linuxin ISO -tiedostolla juuri luotuun virtuaalikoneeseen. 
 
-Käytin asennuksessa uusinta saatavilla ollutta versiota, joka raportin tekohetkellä oli debian-live-13.0.0-amd64-xfce.iso.
+Käytin asennuksessa uusinta saatavilla ollutta versiota, joka raportin tekohetkellä oli debian-live-13.0.0-amd64-xfce.iso. Joka sisälsi Calamares-asennusohjelman.
 
 Tässä asennusprosessissa hyödynsin sekä Teron (Karvinen, T. 2021) että Johannan (Heinonen, J. 2025) ohjeita.
 
