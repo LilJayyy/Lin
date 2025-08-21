@@ -19,10 +19,12 @@ Asennuksen jälkeen lähdin määrittelemään asetuksia.
 
 * Valitaan Debian (64-bit), tyypiksi Linux
 * Muistin kooksi 4000Mb, 
-* Prosessorien (CPU) määräksi 4 & klikataan virtual hard disk. 
+* Prosessorien (CPU) määräksi 2
 * 60GB Tiedoston kooksi
 * Hard disk file tyypiksi VDI (Virtualbox Disk Image) 
 * Valitaan dynamically allocated.
+
+![Debian asennus 1](kuvat/Debianasennus1.png)
 
 Virtuaalikone ilmestyi tämän jälkeen Virtualbox Manageriin.
 
