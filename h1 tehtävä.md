@@ -34,9 +34,9 @@ Lähdin testaamaan virtuaalikoneen toimivuutta avaamalla selaimen ja Googletin o
 ## Debian GNU/Linux installer
 Asensin Debianin Live ISO -tiedostolla (debian-live-13.0.0-amd64-kde.iso), joka toi käyttöön Calamares-asennusohjelman. Käytettävissä olisi ollut myös toinen asennustapa (debian-cd/...iso-hybrid/), mutta valitsemalla Live ISO:n päädyin käyttämään Calamaresia, jolla halusin edetä. 
 
-Lähdin Debian GNU/Linux Installerin pariin klikkaamalla työpöydän ”Install Debian” -kuvaketta. Lokaatioksi valitsin Finland, Kieleksi valitsin American English, näppäimistön kieleksi English US, Keybordiksi ”Generic 105-key PC (intl.).
-
 ![Calamares](kuvat/Calamares.png)
+
+Lähdin Debian GNU/Linux Installerin pariin klikkaamalla työpöydän ”Install Debian” -kuvaketta. Lokaatioksi valitsin Finland, Kieleksi valitsin American English, näppäimistön kieleksi English US, Keybordiksi ”Generic 105-key PC (intl.).
 
 ![Kielivalinta](kuvat/Kielivalinta.png)
 
@@ -46,15 +46,13 @@ Seuraavalle sivulle edetessä klikattin Erase disk: Yes, Encrypt: No, Boot loade
 
 Lopuksi klikkasin ”Restart now” -ruutuun raksin ja lopuksi vielä "Done" -nappulaa.
 
-![Näyttökuva 2025-08-20 200143](kuvat/Näyttökuva_2025-08-20_200143.png)
+![done](kuvat/done.png)
 
 Käynnistymisessä meni hetken aikaa ja melkein luuli jo asennuksen epäonnistuneen. Kyseessä olikin vain viive, tässä kohtaa kannattaa siis odottaa, kunnes Linux avautuu kunnolla. Seuraavaksi syötettiin  käyttäjätunnus ja salasana. Kirjautuminen onnistui hienosti. 
 
 Avasin testiksi jälleen Mozilla Firefoxin toimivuuden tarkistamiseksi.
 
-![Tyhjä viive](kuvat/Tyhjä_viive.png)
-
-![Näyttökuva 2025-08-20 212327](images/Näyttökuva_2025-08-20_212327.png)
+![lataa](kuvat/lataa.png)
 
 ## Terminal ja komennot tehtäviin päivityksiin ja asennukseen
 Lähdin avaamaan Terminaalin käynnistyspalkin ikonista ja syötin komennon sudo apt -get update. Salasanan syöttämisen jälkeen päivittämisprosessi lähti käyntiin. 
