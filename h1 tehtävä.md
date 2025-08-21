@@ -9,7 +9,7 @@
 
 Karvinen, T. Artikkeli. 2006. Luettavissa: https://terokarvinen.com/2006/raportin-kirjoittaminen-4/ Luettu 20.8.2025
 
-# h1 Tehtävän raportti
+# a) Linuxin asennus virtuaalikoneeseen
 Aloitin asentamisen 20.8.2025 kello 19.30. Tietokoneeni on Fujitsu Lifebook E549 (Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz  1.80 GHz). 
 Ensiksi asensin virtuaalikoneen Virtualboxilla, jonka jälkeen asensin Debian/GNU Linuxin ISO -tiedostolla juuri luotuun virtuaalikoneeseen. 
 
@@ -114,6 +114,18 @@ Vielä käyttäjätunnuksilla kirjautuminen ja olimmekin päässeet tämän harj
 ![Kuva4 h1](https://github.com/user-attachments/assets/4ac4e746-42a5-48a2-9f1a-9002af51043a)
 
 Lopputulos
+
+## k) Suosikkiohjelmani Linuxilla
+
+Suosikkiohjelmani Linuxilla. Tähän valitsin Matrixin, sillä se on yhtiä lempielokuviani.
+
+Matrix -ohjelman asensin Terminaaliin seuraavia komentoja käyttäen:
+* sudo apt update
+* sudo apt install cmatrix
+* cmatrix
+
+  ![matrix](kuvat/matrix.png)
+  
 
 ## Lähteet 
 Bluestacks. Video. Youtube Enable Virtualization on Windows 11.
