@@ -149,7 +149,7 @@ Debian. 2025. *install*. Verkkosivu. Saatavissa: https://cdimage.debian.org/debi
 
 Heinonen, J. 2025.  *How to Install Linux to Virtualbox?* Luettavissa: https://github.com/johannaheinonen/johanna-test-repo/blob/main/linux-20082025.md/ Luettu 20.08.2025.
 
-Karvinen, T. 2021. *Install Debian on Virtualbox* Artikkeli. Luettavissa:https://terokarvinen.com/2021/install-debian-on-virtualbox/ Luettu 20.08.2025. 
+Karvinen, T. 2021. *Install Debian on Virtualbox*. Artikkeli. Luettavissa:https://terokarvinen.com/2021/install-debian-on-virtualbox/ Luettu 20.08.2025. 
 
 
 
