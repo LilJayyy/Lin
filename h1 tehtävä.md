@@ -4,6 +4,7 @@
 - Helppolukuisuus väliotsikoita käyttäen ja kirjoita huolellista kieltä.
 - Toistettavuus eli jos antaa raportin toiselle opiskelijalle pitää sama tulos tulla harhapolkuineen.
 
+
 **LÄHTEET**  
 
 Karvinen, T. Artikkeli. 2006. Luettavissa: https://terokarvinen.com/2006/raportin-kirjoittaminen-4/ Luettu 20.8.2025
