@@ -41,7 +41,9 @@ Ylälaidan pinikkeesta valittiin "Settings"
 
 Avasin juuri asennetun virtuaalikoneen Virtualboxista. Tuli virheilmoitus: ”Not in a hypervsor partition.” ”VT-X is disabled in the BIOS for all CPU modes” (VERR_VMX_MSR-ALL_VMX_DISABLED). Syötin virhekoodin Googleen ja löysin Youtubesta, miten enabloidaan virtualisointi Windows 11:lla. (Youtube, Bluestacks. 2021). 
 
-Virheilmoitus tuli jälleen. Virtuaalikoneen käynnistyminen epäonnistui, koska aiemmin ladattu ISO-tiedosto oli valittuna. Mikäli aiempi ISO -tiedosto on ladattu koneeseen, tulee valita virheilmoituksen alasvetovalikosta haluttu ISO -tiedosto (debian-live-13.0.0-amd64-kde.iso). 
+Virheilmoitus tuli jälleen. Virtuaalikoneen käynnistyminen epäonnistui, koska aiemmin ladattu ISO-tiedosto oli valittuna. 
+
+Mikäli aiempi ISO -tiedosto on ladattu koneeseen, tulee valita virheilmoituksen alasvetovalikosta haluttu ISO -tiedosto (debian-live-13.0.0-amd64-kde.iso). 
 
 ![kuva5](kuvat/kuva5.png)
 
@@ -86,6 +88,7 @@ Avasin testiksi vielä Mozilla Firefoxin toimivuuden tarkistamiseksi, joka läht
 Lähdin avaamaan Terminaalin käynnistyspalkin ikonista ja tässä vaiheessa asennusprosessi on kestänyt hieman alle tunnin. 
 
 Syötin alkuun komennon ls -la joka lähti listaamaan tiedostot ja kansiot.
+
 ![Terminal](kuvat/Terminal.png)
 
 Seuraavaksi syötin komennot:
