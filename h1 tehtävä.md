@@ -1,9 +1,9 @@
 # Raportin kirjoittaminen
 
 - Täsmällisyys selittäen selkeästi mitä komentoja on antanut ja tarkat kellonajat työvaiheisiin kuuluvasta ajasta.
-- Helppolukuisuus väliotsikoita käyttäen ja kirjoita huolellista kieltä.
-- Toistettavuus eli jos antaa raportin toiselle opiskelijalle pitää sama tulos tulla harhapolkuineen.
-
+- Virheilmoituksien syyt ja toimenpiteet ilmoitettava selkeästi.
+- Helppolukuisuus väliotsikoita käyttäen, kirjoita huolellista kieltä ja tarkista teksti kunnolla kirjoitusvirheiden varalta.
+- Toistettavuus eli jos antaa raportin toiselle opiskelijalle pitää sama tulos tulla harhapolkuineen ja huomioi myös ympäristö, josta raportoit eri tietokoneiden ja verkon varalta.
 
 **LÄHTEET**  
 
