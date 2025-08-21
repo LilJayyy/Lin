@@ -120,12 +120,17 @@ Lopputulos
 Valitsin **Matrix** ohjelman, sillä se on yksi lempielokuvistani
 
 Asensin sen terminaaliin seuraavia komentoja käyttäen:
-* sudo apt update
-* sudo apt install cmatrix
+* sudo apt-get install cmatrix
 * cmatrix
 
   ![matrix](kuvat/matrix.png)
-  
+
+Ja vielä bonuksena veturi komennolla
+* sudo apt install sl
+* sl
+
+![veturi](kuvat/veturi.png)
+
 
 ## Lähteet 
 Bluestacks. Video. Youtube Enable Virtualization on Windows 11.
