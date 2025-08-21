@@ -73,7 +73,7 @@ Tämä asennusvaihe kesti noin viisi minuuttia.
 
 ![Asennus](kuvat/Asennus.png)
 
-Asennuksen valmistuttua ruksin ”Restart now” -ruudun ja lopuksi vielä klikataan "Done" -nappulaa.
+Asennuksen valmistuttua ruksin ”Restart now” -ruudun ja lopuksi vielä klikataan "Done" -painiketta.
 
 ![done](kuvat/done.png)
 
