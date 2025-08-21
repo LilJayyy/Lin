@@ -145,7 +145,7 @@ Ja vielä bonuksena veturi komennolla
 Bluestacks. 2022. Video. Youtube. *Enable Virtualization on Windows 11*.
 Katsottavissa: https://www.youtube.com/watch?v=t8f-zw_wcWM Katsottu: 20.8.2025.  
 
-Debian. 2025. *install*. Verkkosivu. Saatavissa: https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/ Luettu: 20.08.2025.
+Debian. 2025. *install*. Verkkosivusto. Luettavissa: https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/ Luettu: 20.08.2025.
 
 Heinonen, J. 2025.  *How to Install Linux to Virtualbox?* Luettavissa: https://github.com/johannaheinonen/johanna-test-repo/blob/main/linux-20082025.md/ Luettu 20.08.2025.
 
