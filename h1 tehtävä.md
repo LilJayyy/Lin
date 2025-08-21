@@ -29,7 +29,7 @@ Syötin virhekoodin Googleen ja löysin Youtubesta, miten enabloidaan virtualiso
 
 Lähdin testaamaan virtuaalikoneen toimivuutta avaamalla selaimen ja Googletin ohjeistuksen mukaisesti ”Tero Karvinen” ja hakutulos aukesi onnistuneesti. 
 
-![Näyttökuva 2025-08-20 192756.png](images/Näyttökuva_2025-08-20-192756.png)
+![karvinen](karvinen.png)
 
 ## Debian GNU/Linux installer
 Asensin Debianin Live ISO -tiedostolla (debian-live-13.0.0-amd64-kde.iso), joka toi käyttöön Calamares-asennusohjelman. Käytettävissä olisi ollut myös toinen asennustapa (debian-cd/...iso-hybrid/), mutta valitsemalla Live ISO:n päädyin käyttämään Calamaresia, jolla halusin edetä. 
