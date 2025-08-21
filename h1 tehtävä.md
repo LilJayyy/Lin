@@ -34,9 +34,11 @@ Syötin virhekoodin Googleen ja löysin Youtubesta, miten enabloidaan virtualiso
 
 ![Kuva3 h1](https://github.com/user-attachments/assets/30db276e-0f68-43c9-9c36-e1605d673f89)
 
-Lähdin testaamaan virtuaalikoneen toimivuutta avaamalla selaimen ja Googletin ohjeistuksen mukaisesti ”TeroKarvinen.com” ja hakutulos aukesi onnistuneesti. 
+Tulikin jälleen virheilmoitus, aiemmin ladattu ISO -tiedosto kaatoi virtuaalikoneen käynnistyksen. Alasvetovalikosta valitsemalla oikea ISO -tiedosto (debian-live-13.0.0-amd64-kde.iso) käynnistyi virtuaalikone nätisti.
 
-![karvinen](kuvat/karvinen.png)
+![kuva5](kuvat/kuva5.png)
+
+Lähdin testaamaan virtuaalikoneen toimivuutta avaamalla selaimen ja Googletin ohjeistuksen mukaisesti ”TeroKarvinen.com” ja hakutulos aukesi onnistuneesti. Seuraavaksi lähdin asentamaan Debiania juuri luotuun virtuaalikoneeseen.
 
 ## Debian GNU/Linux installer
 Asensin Debianin Live ISO -tiedostolla (debian-live-13.0.0-amd64-kde.iso), joka toi käyttöön Calamares-asennusohjelman. Käytettävissä olisi ollut myös toinen asennustapa (debian-cd/...iso-hybrid/), mutta valitsemalla Live ISO:n päädyin käyttämään Calamaresia, jolla halusin edetä. 
@@ -61,9 +63,11 @@ Asennuksen valmistuttua ruksin ”Restart now” -ruudun ja lopuksi vielä klika
 
 ![done](kuvat/done.png)
 
-Käynnistymisessä meni hetken aikaa ja melkein luuli jo asennuksen epäonnistuneen. Kyseessä olikin vain viive, tässä kohtaa kannattaa siis odottaa, kunnes Linux avautuu kunnolla. Seuraavaksi syötettiin  käyttäjätunnus ja salasana. Kirjautuminen onnistui hienosti. 
+Käynnistymisessä meni hetken aikaa ja melkein luuli jo asennuksen epäonnistuneen. Kyseessä olikin vain viive, tässä kohtaa kannattaa siis odottaa, kunnes Linux avautuu kunnolla. 
 
-Avasin testiksi jälleen Mozilla Firefoxin toimivuuden tarkistamiseksi, joka lähti toimimaan odotetusti.
+![salasana](kuvat/salasana.png)
+
+Avasin testiksi vielä Mozilla Firefoxin toimivuuden tarkistamiseksi, joka lähti toimimaan odotetusti.
 
 ## Terminal ja komennot tehtäviin päivityksiin ja asennukseen
 Lähdin avaamaan Terminaalin käynnistyspalkin ikonista ja syötin komennon sudo apt -get update. Salasanan syöttämisen jälkeen päivittämisprosessi lähti käyntiin. 
