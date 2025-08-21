@@ -2,14 +2,14 @@
 
 - Täsmällisyys selittäen selkeästi mitä komentoja on antanut ja tarkat kellonajat työvaiheisiin kuuluvasta ajasta. Virheilmoituksien syyt ja toimenpiteet ilmoitettava selkeästi.
   
-- Helppolukuisuus väliotsikoita käyttäen, kirjoita huolellista kieltä ja tarkista teksti kunnolla kirjoitusvirheiden varalta.
+- Helppolukuisuus väliotsikoita käyttäen, kirjoita huolellista kieltä. Tarkista teksti kunnolla kirjoitusvirheiden varalta.
   
-- Toistettavuus eli jos antaa raportin toiselle opiskelijalle pitää sama tulos tulla harhapolkuineen ja huomioi myös ympäristö, josta raportoit eri tietokoneiden ja verkon varalta.
+- Toistettavuus eli jos antaa raportin toiselle opiskelijalle pitää sama tulos tulla harhapolkuineen. Huomioi myös ympäristö, josta raportoit eri tietokoneiden ja verkon varalta.
   
 - Viittaa lähteisiin akateemisia käytäntöjä noudattaen. Lähdeviittaukset on hyvä laittaa akkosjärjestykseen, ja niiden tulee sisältää linkki, lähdetyyppi sekä viittauksen päivämäärä.
   
-- Vakioteksti esimerkiksi lisenssin valinta, kuten GPL ja mitä käyttänyt pohjana raportissa.
-  
+- Vakioteksti, esimerkiksi lisenssin valinta, kuten GPL. Raportin pohjana käytetty materiaali myös mainittava, jos sellaista käytetty.
+
 - Pahoja mokia kuten kuvien luvaton kopiointi tai plagiointi. Lähde on aina ilmoitettava.
 
 
