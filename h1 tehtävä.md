@@ -142,7 +142,7 @@ Ja vielä bonuksena veturi komennolla
 
 
 ## Lähteet 
-Bluestacks. 2022. Video. Youtube. *Enable Virtualization on Windows 11*
+Bluestacks. 2022. Video. Youtube. *Enable Virtualization on Windows 11*.
 Katsottavissa: https://www.youtube.com/watch?v=t8f-zw_wcWM Katsottu: 20.8.2025.  
 
 Debian. 2025. *install*. Verkkosivu. Saatavissa: https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/ Luettu: 20.08.2025.
