@@ -40,7 +40,7 @@ Syötin virhekoodin Googleen ja löysin Youtubesta, miten enabloidaan virtualiso
 
 ![Kuva3 h1](https://github.com/user-attachments/assets/30db276e-0f68-43c9-9c36-e1605d673f89)
 
-Tulikin jälleen virheilmoitus, aiemmin ladattu ISO -tiedosto kaatoi virtuaalikoneen käynnistyksen. Mikäli siis aiempi ISO -tiedosto on ladattu koneeseen, tulee valita virheilmoituksen alasvetovalikosta haluttu ISO -tiedosto (debian-live-13.0.0-amd64-kde.iso). Virtuaalikone käynnistyi tämän jälkeen normaalisti.
+Virheilmoitus ilmestyi jälleen. Aiemmin ladattu ISO -tiedosto esti virtuaalikoneen käynnistymisen. Mikäli aiempi ISO -tiedosto on ladattu koneeseen, tulee valita virheilmoituksen alasvetovalikosta haluttu ISO -tiedosto (debian-live-13.0.0-amd64-kde.iso). 
 
 ![kuva5](kuvat/kuva5.png)
 
@@ -63,7 +63,7 @@ Seuraavalle sivulle edetessä klikattiin
 * Erase disk: Yes
 * Encrypt: No, Boot loader location: ”Master Boot Record..”
 * Valitsin nimeksi oman koko nimeni, username, hostname, kuitenkin poistaen oman nimen hostname-kentästä, sillä se on myös Public Domain. Lopuksi vielä salasana ja automaattinen sisäänkirjautumisen jätin tyhjäksi.
-* Lopuksi klikattiin ”Install” napista.
+* Lopuksi klikattiin ”Install” painikkeesta.
 
 Tämä asennusvaihe kesti noin viisi minuuttia. 
 
