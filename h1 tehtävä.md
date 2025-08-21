@@ -86,8 +86,10 @@ Syötin alkuun komennon ls -la joka lähti listaamaan tiedostot ja kansiot.
 ![Terminal](kuvat/Terminal.png)
 
 Seuraavaksi syötin komennot:
-* sudo apt-get update. -> Salasanan syöttämisen jälkeen päivittämisprosessi lähti käyntiin, tietenkin muutaman klassisen kirjoitusvirheen jälkeen - jota täytyi hetken ihmetellä.
+* sudo apt-get update. 
 * sudo apt-get -y dist-upgrade eli päivitetään kaikki.
+
+Salasanan syöttämisen jälkeen päivittämisprosessi lähti käyntiin, tietenkin muutaman klassisen kirjoitusvirheen jälkeen - jota täytyi hetken ihmetellä.
 
 Vaihe kesti muutaman minuutin.
 
