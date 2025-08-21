@@ -43,7 +43,7 @@ Avasin juuri asennetun virtuaalikoneen Virtualboxista. Tuli virheilmoitus: ”No
 
 Virheilmoitus tuli jälleen. Virtuaalikoneen käynnistyminen epäonnistui, koska aiemmin ladattu ISO-tiedosto oli valittuna. 
 
-Mikäli aiempi ISO -tiedosto on ladattu koneeseen, tulee valita virheilmoituksen alasvetovalikosta haluttu ISO -tiedosto (debian-live-13.0.0-amd64-kde.iso). 
+Mikäli aiempi ISO -tiedosto on ladattu koneeseen, tulee valita virheilmoituksen DVD -alasvetovalikosta haluttu ISO -tiedosto (debian-live-13.0.0-amd64-kde.iso). 
 
 ![kuva5](kuvat/kuva5.png)
 
