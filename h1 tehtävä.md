@@ -117,9 +117,9 @@ Lopputulos
 
 ## k) Suosikkiohjelmani Linuxilla
 
-Suosikkiohjelmani Linuxilla. Tähän valitsin Matrixin, sillä se on yhtiä lempielokuviani.
+Valitsin **Matrix** ohjelman, sillä se on yksi lempielokuvistani
 
-Matrix -ohjelman asensin Terminaaliin seuraavia komentoja käyttäen:
+Asensin sen terminaaliin seuraavia komentoja käyttäen:
 * sudo apt update
 * sudo apt install cmatrix
 * cmatrix
