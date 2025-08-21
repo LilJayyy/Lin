@@ -1,7 +1,6 @@
 # Raportin kirjoittaminen
 
-- Täsmällisyys selittäen selkeästi mitä komentoja on antanut ja tarkat kellonajat työvaiheisiin kuuluvasta ajasta.
-- Virheilmoituksien syyt ja toimenpiteet ilmoitettava selkeästi.
+- Täsmällisyys selittäen selkeästi mitä komentoja on antanut ja tarkat kellonajat työvaiheisiin kuuluvasta ajasta. Virheilmoituksien syyt ja toimenpiteet ilmoitettava selkeästi.
   
 - Helppolukuisuus väliotsikoita käyttäen, kirjoita huolellista kieltä ja tarkista teksti kunnolla kirjoitusvirheiden varalta.
   
