@@ -38,21 +38,21 @@ Lähdin Debian GNU/Linux Installerin pariin klikkaamalla työpöydän ”Install
 
 ![Calamares](kuvat/Calamares.png)
 
-![Kielivalinta](images/Kielivalinta.png)
+![Kielivalinta](kuvat/Kielivalinta.png)
 
 Seuraavalle sivulle edetessä klikattin Erase disk: Yes, Encrypt: No, Boot loader location: ”Master Boot Record..” Valitsin nimeksi oman koko nimeni, kirjautuminimeni, tietokoneen nimen, kuitenkin poistaen oman nimi tietokoneen nimestä, sillä siitä tulee myös Public Domain nimi ja lopuksi vielä salasana ja jätetään automaattinen sisäänkirjautuminen tyhjäksi. Lopuksi klikattiin ”Install” napista. Asennusvaihe kesti noin viisi minuuttia. 
 
-![Asennus käynnissä](images/Asennuskäynnissä.png)
+![Asennus käynnissä](kuvat/Asennuskäynnissä.png)
 
 Lopuksi klikkasin ”Restart now” -ruutuun raksin ja lopuksi vielä "Done" -nappulaa.
 
-![Näyttökuva 2025-08-20 200143](images/Näyttökuva_2025-08-20_200143.png)
+![Näyttökuva 2025-08-20 200143](kuvat/Näyttökuva_2025-08-20_200143.png)
 
 Käynnistymisessä meni hetken aikaa ja melkein luuli jo asennuksen epäonnistuneen. Kyseessä olikin vain viive, tässä kohtaa kannattaa siis odottaa, kunnes Linux avautuu kunnolla. Seuraavaksi syötettiin  käyttäjätunnus ja salasana. Kirjautuminen onnistui hienosti. 
 
 Avasin testiksi jälleen Mozilla Firefoxin toimivuuden tarkistamiseksi.
 
-![Tyhjä viive](images/Tyhjä_viive.png)
+![Tyhjä viive](kuvat/Tyhjä_viive.png)
 
 ![Näyttökuva 2025-08-20 212327](images/Näyttökuva_2025-08-20_212327.png)
 
