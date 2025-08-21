@@ -11,6 +11,8 @@ Karvinen, T. Artikkeli. 2006. Luettavissa: https://terokarvinen.com/2006/raporti
 # h1 Tehtävän raportti
 Aloitin asentamisen 20.8. kello 19.30. Tietokoneeni on Fujitsu Lifebook E549 (Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz  1.80 GHz). 
 Ensiksi asensin virtuaalikoneen Virtualboxilla, jonka jälkeen asennettiin Debian juuri luotuun virtuaalikoneeseen. 
+
+
 Uusin versio kirjoittaessa on ollut debian-live-13.0.0-amd64-xfce.iso.
 Katsoin ohjeen Debianin asentamiseen tehtävänannosta (Karvinen, T. 2021) ja Johannan ohjeesta (Heinonen, J. 2025).
 
