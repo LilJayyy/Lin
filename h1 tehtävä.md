@@ -38,13 +38,9 @@ Ylälaidan pinikkeesta valittiin "Settings"
 * Controller: IDE kohdasta CDROM "Empty".
 * Attribuuteista CD-levyn kuvakkeesta valittiin Virtual Optical Disk Fileksi aiemmin asennetun ja tallennetun ISO Disk imagen (debian-live-13.0.0-amd64-kde.iso).
 
-Avasin juuri asennetun virtuaalikoneen Virtualboxista. Tuli virheilmoitus: ”Not in a hypervsor partition.” ”VT-X is disabled in the BIOS for all CPU modes” (VERR_VMX_MSR-ALL_VMX_DISABLED).
+Avasin juuri asennetun virtuaalikoneen Virtualboxista. Tuli virheilmoitus: ”Not in a hypervsor partition.” ”VT-X is disabled in the BIOS for all CPU modes” (VERR_VMX_MSR-ALL_VMX_DISABLED). Syötin virhekoodin Googleen ja löysin Youtubesta, miten enabloidaan virtualisointi Windows 11:lla. (Youtube, Bluestacks. 2021). 
 
-Syötin virhekoodin Googleen ja löysin Youtubesta, miten enabloidaan virtualisointi Windows 11:lla. (Youtube, Bluestacks. 2021). 
-
-![Kuva3 h1](https://github.com/user-attachments/assets/30db276e-0f68-43c9-9c36-e1605d673f89)
-
-Virheilmoitus ilmestyi jälleen. Virtuaalikoneen käynnistyminen epäonnistui, koska aiemmin ladattu ISO-tiedosto oli valittuna. Mikäli aiempi ISO -tiedosto on ladattu koneeseen, tulee valita virheilmoituksen alasvetovalikosta haluttu ISO -tiedosto (debian-live-13.0.0-amd64-kde.iso). 
+Virheilmoitus tuli jälleen. Virtuaalikoneen käynnistyminen epäonnistui, koska aiemmin ladattu ISO-tiedosto oli valittuna. Mikäli aiempi ISO -tiedosto on ladattu koneeseen, tulee valita virheilmoituksen alasvetovalikosta haluttu ISO -tiedosto (debian-live-13.0.0-amd64-kde.iso). 
 
 ![kuva5](kuvat/kuva5.png)
 
