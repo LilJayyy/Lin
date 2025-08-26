@@ -116,7 +116,7 @@ Terminalissa jatkettiin vielä palomuurin asentamisella ja käynnistyksellä kom
   
   ![fire](kuvat/fire.png)
 
-Uudelleenkäynnistyksen aika, eli valitsein ylälaidan "Applications" -valikosta "Log out" ja lopuksi vielä "Restart".
+Uudelleenkäynnistyksen aika, eli valitsin ylälaidan "Applications" -valikosta "Log out" ja lopuksi vielä "Restart".
 
 Vielä käyttäjätunnuksilla kirjautuminen ja olimmekin päässeet tämän harjoituksen loppuun. Linuxin asennus oli onnistunut. Kello oli tässä kohtaa 21:30 jolloin raportti ja asennusprosessit vaiheineen ovat valmiita.
 
